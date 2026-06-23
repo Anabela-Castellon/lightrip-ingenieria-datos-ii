@@ -1,0 +1,802 @@
+[
+  {
+    "resena_id": "REV-001",
+    "reserva_id": "RES-001",
+    "producto_id": "PROD-001",
+    "usuario_autor_id": "USR-001",
+    "usuario_destinatario_id": "USR-002",
+    "puntaje": 5,
+    "comentario": "Excelente experiencia y producto en muy buen estado.",
+    "fecha": "2026-05-16T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-002",
+    "reserva_id": "RES-006",
+    "producto_id": "PROD-001",
+    "usuario_autor_id": "USR-001",
+    "usuario_destinatario_id": "USR-002",
+    "puntaje": 4,
+    "comentario": "El alquiler fue correcto y la comunicación fue clara.",
+    "fecha": "2026-01-14T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-003",
+    "reserva_id": "RES-010",
+    "producto_id": "PROD-001",
+    "usuario_autor_id": "USR-008",
+    "usuario_destinatario_id": "USR-002",
+    "puntaje": 5,
+    "comentario": "Producto cuidado y entrega puntual.",
+    "fecha": "2026-02-05T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-004",
+    "reserva_id": "RES-011",
+    "producto_id": "PROD-001",
+    "usuario_autor_id": "USR-009",
+    "usuario_destinatario_id": "USR-002",
+    "puntaje": 4,
+    "comentario": "Buena atención durante toda la operación.",
+    "fecha": "2026-02-12T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-005",
+    "reserva_id": "RES-012",
+    "producto_id": "PROD-001",
+    "usuario_autor_id": "USR-011",
+    "usuario_destinatario_id": "USR-002",
+    "puntaje": 5,
+    "comentario": "Cumplió con lo publicado y volvería a alquilar.",
+    "fecha": "2026-02-19T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-006",
+    "reserva_id": "RES-005",
+    "producto_id": "PROD-005",
+    "usuario_autor_id": "USR-001",
+    "usuario_destinatario_id": "USR-006",
+    "puntaje": 5,
+    "comentario": "Excelente experiencia y producto en muy buen estado.",
+    "fecha": "2026-04-05T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-007",
+    "reserva_id": "RES-009",
+    "producto_id": "PROD-004",
+    "usuario_autor_id": "USR-012",
+    "usuario_destinatario_id": "USR-005",
+    "puntaje": 3,
+    "comentario": "El alquiler fue correcto y la comunicación fue clara.",
+    "fecha": "2026-07-16T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-008",
+    "reserva_id": "RES-018",
+    "producto_id": "PROD-007",
+    "usuario_autor_id": "USR-008",
+    "usuario_destinatario_id": "USR-014",
+    "puntaje": 4,
+    "comentario": "Producto cuidado y entrega puntual.",
+    "fecha": "2026-04-09T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-009",
+    "reserva_id": "RES-019",
+    "producto_id": "PROD-005",
+    "usuario_autor_id": "USR-009",
+    "usuario_destinatario_id": "USR-006",
+    "puntaje": 5,
+    "comentario": "Buena atención durante toda la operación.",
+    "fecha": "2026-04-19T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-010",
+    "reserva_id": "RES-020",
+    "producto_id": "PROD-008",
+    "usuario_autor_id": "USR-009",
+    "usuario_destinatario_id": "USR-027",
+    "puntaje": 3,
+    "comentario": "Cumplió con lo publicado y volvería a alquilar.",
+    "fecha": "2026-04-24T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-011",
+    "reserva_id": "RES-021",
+    "producto_id": "PROD-005",
+    "usuario_autor_id": "USR-010",
+    "usuario_destinatario_id": "USR-006",
+    "puntaje": 4,
+    "comentario": "Excelente experiencia y producto en muy buen estado.",
+    "fecha": "2026-05-04T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-012",
+    "reserva_id": "RES-022",
+    "producto_id": "PROD-005",
+    "usuario_autor_id": "USR-010",
+    "usuario_destinatario_id": "USR-006",
+    "puntaje": 5,
+    "comentario": "El alquiler fue correcto y la comunicación fue clara.",
+    "fecha": "2026-05-10T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-013",
+    "reserva_id": "RES-023",
+    "producto_id": "PROD-009",
+    "usuario_autor_id": "USR-010",
+    "usuario_destinatario_id": "USR-035",
+    "puntaje": 3,
+    "comentario": "Producto cuidado y entrega puntual.",
+    "fecha": "2026-05-16T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-014",
+    "reserva_id": "RES-024",
+    "producto_id": "PROD-011",
+    "usuario_autor_id": "USR-011",
+    "usuario_destinatario_id": "USR-025",
+    "puntaje": 4,
+    "comentario": "Buena atención durante toda la operación.",
+    "fecha": "2026-01-13T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-015",
+    "reserva_id": "RES-025",
+    "producto_id": "PROD-019",
+    "usuario_autor_id": "USR-029",
+    "usuario_destinatario_id": "USR-015",
+    "puntaje": 5,
+    "comentario": "Cumplió con lo publicado y volvería a alquilar.",
+    "fecha": "2026-01-22T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-016",
+    "reserva_id": "RES-026",
+    "producto_id": "PROD-027",
+    "usuario_autor_id": "USR-047",
+    "usuario_destinatario_id": "USR-005",
+    "puntaje": 3,
+    "comentario": "Excelente experiencia y producto en muy buen estado.",
+    "fecha": "2026-01-31T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-017",
+    "reserva_id": "RES-027",
+    "producto_id": "PROD-037",
+    "usuario_autor_id": "USR-025",
+    "usuario_destinatario_id": "USR-017",
+    "puntaje": 4,
+    "comentario": "El alquiler fue correcto y la comunicación fue clara.",
+    "fecha": "2026-02-03T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-018",
+    "reserva_id": "RES-028",
+    "producto_id": "PROD-045",
+    "usuario_autor_id": "USR-043",
+    "usuario_destinatario_id": "USR-007",
+    "puntaje": 5,
+    "comentario": "Producto cuidado y entrega puntual.",
+    "fecha": "2026-02-12T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-019",
+    "reserva_id": "RES-029",
+    "producto_id": "PROD-055",
+    "usuario_autor_id": "USR-021",
+    "usuario_destinatario_id": "USR-019",
+    "puntaje": 3,
+    "comentario": "Buena atención durante toda la operación.",
+    "fecha": "2026-02-21T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-020",
+    "reserva_id": "RES-030",
+    "producto_id": "PROD-064",
+    "usuario_autor_id": "USR-039",
+    "usuario_destinatario_id": "USR-020",
+    "puntaje": 4,
+    "comentario": "Cumplió con lo publicado y volvería a alquilar.",
+    "fecha": "2026-02-24T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-021",
+    "reserva_id": "RES-031",
+    "producto_id": "PROD-072",
+    "usuario_autor_id": "USR-017",
+    "usuario_destinatario_id": "USR-010",
+    "puntaje": 5,
+    "comentario": "Excelente experiencia y producto en muy buen estado.",
+    "fecha": "2026-03-05T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-022",
+    "reserva_id": "RES-032",
+    "producto_id": "PROD-081",
+    "usuario_autor_id": "USR-035",
+    "usuario_destinatario_id": "USR-011",
+    "puntaje": 3,
+    "comentario": "El alquiler fue correcto y la comunicación fue clara.",
+    "fecha": "2026-03-14T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-023",
+    "reserva_id": "RES-033",
+    "producto_id": "PROD-090",
+    "usuario_autor_id": "USR-013",
+    "usuario_destinatario_id": "USR-012",
+    "puntaje": 4,
+    "comentario": "Producto cuidado y entrega puntual.",
+    "fecha": "2026-03-17T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-024",
+    "reserva_id": "RES-034",
+    "producto_id": "PROD-099",
+    "usuario_autor_id": "USR-031",
+    "usuario_destinatario_id": "USR-013",
+    "puntaje": 5,
+    "comentario": "Buena atención durante toda la operación.",
+    "fecha": "2026-03-26T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-025",
+    "reserva_id": "RES-035",
+    "producto_id": "PROD-109",
+    "usuario_autor_id": "USR-049",
+    "usuario_destinatario_id": "USR-025",
+    "puntaje": 3,
+    "comentario": "Cumplió con lo publicado y volvería a alquilar.",
+    "fecha": "2026-04-04T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-026",
+    "reserva_id": "RES-036",
+    "producto_id": "PROD-117",
+    "usuario_autor_id": "USR-027",
+    "usuario_destinatario_id": "USR-015",
+    "puntaje": 4,
+    "comentario": "Excelente experiencia y producto en muy buen estado.",
+    "fecha": "2026-04-07T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-027",
+    "reserva_id": "RES-037",
+    "producto_id": "PROD-015",
+    "usuario_autor_id": "USR-045",
+    "usuario_destinatario_id": "USR-020",
+    "puntaje": 5,
+    "comentario": "El alquiler fue correcto y la comunicación fue clara.",
+    "fecha": "2026-04-16T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-028",
+    "reserva_id": "RES-038",
+    "producto_id": "PROD-023",
+    "usuario_autor_id": "USR-023",
+    "usuario_destinatario_id": "USR-010",
+    "puntaje": 3,
+    "comentario": "Producto cuidado y entrega puntual.",
+    "fecha": "2026-04-25T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-029",
+    "reserva_id": "RES-039",
+    "producto_id": "PROD-032",
+    "usuario_autor_id": "USR-041",
+    "usuario_destinatario_id": "USR-011",
+    "puntaje": 4,
+    "comentario": "Buena atención durante toda la operación.",
+    "fecha": "2026-04-28T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-030",
+    "reserva_id": "RES-040",
+    "producto_id": "PROD-041",
+    "usuario_autor_id": "USR-019",
+    "usuario_destinatario_id": "USR-012",
+    "puntaje": 5,
+    "comentario": "Cumplió con lo publicado y volvería a alquilar.",
+    "fecha": "2026-05-07T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-031",
+    "reserva_id": "RES-041",
+    "producto_id": "PROD-050",
+    "usuario_autor_id": "USR-037",
+    "usuario_destinatario_id": "USR-013",
+    "puntaje": 3,
+    "comentario": "Excelente experiencia y producto en muy buen estado.",
+    "fecha": "2026-05-16T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-032",
+    "reserva_id": "RES-042",
+    "producto_id": "PROD-060",
+    "usuario_autor_id": "USR-015",
+    "usuario_destinatario_id": "USR-025",
+    "puntaje": 4,
+    "comentario": "El alquiler fue correcto y la comunicación fue clara.",
+    "fecha": "2026-05-19T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-033",
+    "reserva_id": "RES-043",
+    "producto_id": "PROD-068",
+    "usuario_autor_id": "USR-033",
+    "usuario_destinatario_id": "USR-015",
+    "puntaje": 5,
+    "comentario": "Producto cuidado y entrega puntual.",
+    "fecha": "2026-05-28T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-034",
+    "reserva_id": "RES-044",
+    "producto_id": "PROD-076",
+    "usuario_autor_id": "USR-011",
+    "usuario_destinatario_id": "USR-005",
+    "puntaje": 3,
+    "comentario": "Buena atención durante toda la operación.",
+    "fecha": "2026-01-17T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-035",
+    "reserva_id": "RES-045",
+    "producto_id": "PROD-086",
+    "usuario_autor_id": "USR-029",
+    "usuario_destinatario_id": "USR-017",
+    "puntaje": 4,
+    "comentario": "Cumplió con lo publicado y volvería a alquilar.",
+    "fecha": "2026-01-20T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-036",
+    "reserva_id": "RES-046",
+    "producto_id": "PROD-094",
+    "usuario_autor_id": "USR-047",
+    "usuario_destinatario_id": "USR-007",
+    "puntaje": 5,
+    "comentario": "Excelente experiencia y producto en muy buen estado.",
+    "fecha": "2026-01-29T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-037",
+    "reserva_id": "RES-047",
+    "producto_id": "PROD-104",
+    "usuario_autor_id": "USR-025",
+    "usuario_destinatario_id": "USR-019",
+    "puntaje": 3,
+    "comentario": "El alquiler fue correcto y la comunicación fue clara.",
+    "fecha": "2026-02-07T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-038",
+    "reserva_id": "RES-048",
+    "producto_id": "PROD-113",
+    "usuario_autor_id": "USR-043",
+    "usuario_destinatario_id": "USR-020",
+    "puntaje": 4,
+    "comentario": "Producto cuidado y entrega puntual.",
+    "fecha": "2026-02-10T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-039",
+    "reserva_id": "RES-049",
+    "producto_id": "PROD-011",
+    "usuario_autor_id": "USR-021",
+    "usuario_destinatario_id": "USR-025",
+    "puntaje": 5,
+    "comentario": "Buena atención durante toda la operación.",
+    "fecha": "2026-02-19T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-040",
+    "reserva_id": "RES-050",
+    "producto_id": "PROD-019",
+    "usuario_autor_id": "USR-039",
+    "usuario_destinatario_id": "USR-015",
+    "puntaje": 3,
+    "comentario": "Cumplió con lo publicado y volvería a alquilar.",
+    "fecha": "2026-02-28T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-041",
+    "reserva_id": "RES-051",
+    "producto_id": "PROD-027",
+    "usuario_autor_id": "USR-017",
+    "usuario_destinatario_id": "USR-005",
+    "puntaje": 4,
+    "comentario": "Excelente experiencia y producto en muy buen estado.",
+    "fecha": "2026-03-03T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-042",
+    "reserva_id": "RES-052",
+    "producto_id": "PROD-037",
+    "usuario_autor_id": "USR-035",
+    "usuario_destinatario_id": "USR-017",
+    "puntaje": 5,
+    "comentario": "El alquiler fue correcto y la comunicación fue clara.",
+    "fecha": "2026-03-12T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-043",
+    "reserva_id": "RES-053",
+    "producto_id": "PROD-045",
+    "usuario_autor_id": "USR-013",
+    "usuario_destinatario_id": "USR-007",
+    "puntaje": 3,
+    "comentario": "Producto cuidado y entrega puntual.",
+    "fecha": "2026-03-21T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-044",
+    "reserva_id": "RES-054",
+    "producto_id": "PROD-055",
+    "usuario_autor_id": "USR-031",
+    "usuario_destinatario_id": "USR-019",
+    "puntaje": 4,
+    "comentario": "Buena atención durante toda la operación.",
+    "fecha": "2026-03-24T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-045",
+    "reserva_id": "RES-055",
+    "producto_id": "PROD-064",
+    "usuario_autor_id": "USR-049",
+    "usuario_destinatario_id": "USR-020",
+    "puntaje": 5,
+    "comentario": "Cumplió con lo publicado y volvería a alquilar.",
+    "fecha": "2026-04-02T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-046",
+    "reserva_id": "RES-056",
+    "producto_id": "PROD-072",
+    "usuario_autor_id": "USR-027",
+    "usuario_destinatario_id": "USR-010",
+    "puntaje": 3,
+    "comentario": "Excelente experiencia y producto en muy buen estado.",
+    "fecha": "2026-04-11T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-047",
+    "reserva_id": "RES-057",
+    "producto_id": "PROD-081",
+    "usuario_autor_id": "USR-045",
+    "usuario_destinatario_id": "USR-011",
+    "puntaje": 4,
+    "comentario": "El alquiler fue correcto y la comunicación fue clara.",
+    "fecha": "2026-04-14T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-048",
+    "reserva_id": "RES-058",
+    "producto_id": "PROD-090",
+    "usuario_autor_id": "USR-023",
+    "usuario_destinatario_id": "USR-012",
+    "puntaje": 5,
+    "comentario": "Producto cuidado y entrega puntual.",
+    "fecha": "2026-04-23T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-049",
+    "reserva_id": "RES-059",
+    "producto_id": "PROD-099",
+    "usuario_autor_id": "USR-041",
+    "usuario_destinatario_id": "USR-013",
+    "puntaje": 3,
+    "comentario": "Buena atención durante toda la operación.",
+    "fecha": "2026-05-02T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-050",
+    "reserva_id": "RES-060",
+    "producto_id": "PROD-109",
+    "usuario_autor_id": "USR-019",
+    "usuario_destinatario_id": "USR-025",
+    "puntaje": 4,
+    "comentario": "Cumplió con lo publicado y volvería a alquilar.",
+    "fecha": "2026-05-05T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-051",
+    "reserva_id": "RES-061",
+    "producto_id": "PROD-117",
+    "usuario_autor_id": "USR-037",
+    "usuario_destinatario_id": "USR-015",
+    "puntaje": 5,
+    "comentario": "Excelente experiencia y producto en muy buen estado.",
+    "fecha": "2026-05-14T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-052",
+    "reserva_id": "RES-062",
+    "producto_id": "PROD-015",
+    "usuario_autor_id": "USR-015",
+    "usuario_destinatario_id": "USR-020",
+    "puntaje": 3,
+    "comentario": "El alquiler fue correcto y la comunicación fue clara.",
+    "fecha": "2026-05-23T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-053",
+    "reserva_id": "RES-063",
+    "producto_id": "PROD-023",
+    "usuario_autor_id": "USR-033",
+    "usuario_destinatario_id": "USR-010",
+    "puntaje": 4,
+    "comentario": "Producto cuidado y entrega puntual.",
+    "fecha": "2026-05-26T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-054",
+    "reserva_id": "RES-064",
+    "producto_id": "PROD-032",
+    "usuario_autor_id": "USR-012",
+    "usuario_destinatario_id": "USR-011",
+    "puntaje": 5,
+    "comentario": "Buena atención durante toda la operación.",
+    "fecha": "2026-01-15T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-055",
+    "reserva_id": "RES-065",
+    "producto_id": "PROD-041",
+    "usuario_autor_id": "USR-029",
+    "usuario_destinatario_id": "USR-012",
+    "puntaje": 3,
+    "comentario": "Cumplió con lo publicado y volvería a alquilar.",
+    "fecha": "2026-01-24T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-056",
+    "reserva_id": "RES-066",
+    "producto_id": "PROD-050",
+    "usuario_autor_id": "USR-047",
+    "usuario_destinatario_id": "USR-013",
+    "puntaje": 4,
+    "comentario": "Excelente experiencia y producto en muy buen estado.",
+    "fecha": "2026-01-27T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-057",
+    "reserva_id": "RES-067",
+    "producto_id": "PROD-060",
+    "usuario_autor_id": "USR-026",
+    "usuario_destinatario_id": "USR-025",
+    "puntaje": 5,
+    "comentario": "El alquiler fue correcto y la comunicación fue clara.",
+    "fecha": "2026-02-05T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-058",
+    "reserva_id": "RES-068",
+    "producto_id": "PROD-068",
+    "usuario_autor_id": "USR-043",
+    "usuario_destinatario_id": "USR-015",
+    "puntaje": 3,
+    "comentario": "Producto cuidado y entrega puntual.",
+    "fecha": "2026-02-14T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-059",
+    "reserva_id": "RES-069",
+    "producto_id": "PROD-076",
+    "usuario_autor_id": "USR-021",
+    "usuario_destinatario_id": "USR-005",
+    "puntaje": 4,
+    "comentario": "Buena atención durante toda la operación.",
+    "fecha": "2026-02-17T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-060",
+    "reserva_id": "RES-070",
+    "producto_id": "PROD-086",
+    "usuario_autor_id": "USR-039",
+    "usuario_destinatario_id": "USR-017",
+    "puntaje": 5,
+    "comentario": "Cumplió con lo publicado y volvería a alquilar.",
+    "fecha": "2026-02-26T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-061",
+    "reserva_id": "RES-071",
+    "producto_id": "PROD-094",
+    "usuario_autor_id": "USR-017",
+    "usuario_destinatario_id": "USR-007",
+    "puntaje": 3,
+    "comentario": "Excelente experiencia y producto en muy buen estado.",
+    "fecha": "2026-03-07T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-062",
+    "reserva_id": "RES-072",
+    "producto_id": "PROD-104",
+    "usuario_autor_id": "USR-035",
+    "usuario_destinatario_id": "USR-019",
+    "puntaje": 4,
+    "comentario": "El alquiler fue correcto y la comunicación fue clara.",
+    "fecha": "2026-03-10T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-063",
+    "reserva_id": "RES-073",
+    "producto_id": "PROD-113",
+    "usuario_autor_id": "USR-013",
+    "usuario_destinatario_id": "USR-020",
+    "puntaje": 5,
+    "comentario": "Producto cuidado y entrega puntual.",
+    "fecha": "2026-03-19T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-064",
+    "reserva_id": "RES-074",
+    "producto_id": "PROD-011",
+    "usuario_autor_id": "USR-031",
+    "usuario_destinatario_id": "USR-025",
+    "puntaje": 3,
+    "comentario": "Buena atención durante toda la operación.",
+    "fecha": "2026-03-28T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-065",
+    "reserva_id": "RES-075",
+    "producto_id": "PROD-019",
+    "usuario_autor_id": "USR-049",
+    "usuario_destinatario_id": "USR-015",
+    "puntaje": 4,
+    "comentario": "Cumplió con lo publicado y volvería a alquilar.",
+    "fecha": "2026-03-31T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-066",
+    "reserva_id": "RES-076",
+    "producto_id": "PROD-027",
+    "usuario_autor_id": "USR-027",
+    "usuario_destinatario_id": "USR-005",
+    "puntaje": 5,
+    "comentario": "Excelente experiencia y producto en muy buen estado.",
+    "fecha": "2026-04-09T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-067",
+    "reserva_id": "RES-077",
+    "producto_id": "PROD-037",
+    "usuario_autor_id": "USR-045",
+    "usuario_destinatario_id": "USR-017",
+    "puntaje": 3,
+    "comentario": "El alquiler fue correcto y la comunicación fue clara.",
+    "fecha": "2026-04-18T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-068",
+    "reserva_id": "RES-078",
+    "producto_id": "PROD-045",
+    "usuario_autor_id": "USR-023",
+    "usuario_destinatario_id": "USR-007",
+    "puntaje": 4,
+    "comentario": "Producto cuidado y entrega puntual.",
+    "fecha": "2026-04-21T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-069",
+    "reserva_id": "RES-079",
+    "producto_id": "PROD-055",
+    "usuario_autor_id": "USR-041",
+    "usuario_destinatario_id": "USR-019",
+    "puntaje": 5,
+    "comentario": "Buena atención durante toda la operación.",
+    "fecha": "2026-04-30T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-070",
+    "reserva_id": "RES-080",
+    "producto_id": "PROD-064",
+    "usuario_autor_id": "USR-019",
+    "usuario_destinatario_id": "USR-020",
+    "puntaje": 3,
+    "comentario": "Cumplió con lo publicado y volvería a alquilar.",
+    "fecha": "2026-05-09T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-071",
+    "reserva_id": "RES-081",
+    "producto_id": "PROD-072",
+    "usuario_autor_id": "USR-037",
+    "usuario_destinatario_id": "USR-010",
+    "puntaje": 4,
+    "comentario": "Excelente experiencia y producto en muy buen estado.",
+    "fecha": "2026-05-12T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-072",
+    "reserva_id": "RES-082",
+    "producto_id": "PROD-081",
+    "usuario_autor_id": "USR-015",
+    "usuario_destinatario_id": "USR-011",
+    "puntaje": 5,
+    "comentario": "El alquiler fue correcto y la comunicación fue clara.",
+    "fecha": "2026-05-21T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-073",
+    "reserva_id": "RES-083",
+    "producto_id": "PROD-090",
+    "usuario_autor_id": "USR-033",
+    "usuario_destinatario_id": "USR-012",
+    "puntaje": 3,
+    "comentario": "Producto cuidado y entrega puntual.",
+    "fecha": "2026-05-30T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-074",
+    "reserva_id": "RES-084",
+    "producto_id": "PROD-099",
+    "usuario_autor_id": "USR-011",
+    "usuario_destinatario_id": "USR-013",
+    "puntaje": 4,
+    "comentario": "Buena atención durante toda la operación.",
+    "fecha": "2026-01-13T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-075",
+    "reserva_id": "RES-085",
+    "producto_id": "PROD-109",
+    "usuario_autor_id": "USR-029",
+    "usuario_destinatario_id": "USR-025",
+    "puntaje": 5,
+    "comentario": "Cumplió con lo publicado y volvería a alquilar.",
+    "fecha": "2026-01-22T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-076",
+    "reserva_id": "RES-086",
+    "producto_id": "PROD-117",
+    "usuario_autor_id": "USR-047",
+    "usuario_destinatario_id": "USR-015",
+    "puntaje": 3,
+    "comentario": "Excelente experiencia y producto en muy buen estado.",
+    "fecha": "2026-01-31T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-077",
+    "reserva_id": "RES-087",
+    "producto_id": "PROD-015",
+    "usuario_autor_id": "USR-025",
+    "usuario_destinatario_id": "USR-020",
+    "puntaje": 4,
+    "comentario": "El alquiler fue correcto y la comunicación fue clara.",
+    "fecha": "2026-02-03T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-078",
+    "reserva_id": "RES-088",
+    "producto_id": "PROD-023",
+    "usuario_autor_id": "USR-043",
+    "usuario_destinatario_id": "USR-010",
+    "puntaje": 5,
+    "comentario": "Producto cuidado y entrega puntual.",
+    "fecha": "2026-02-12T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-079",
+    "reserva_id": "RES-089",
+    "producto_id": "PROD-032",
+    "usuario_autor_id": "USR-021",
+    "usuario_destinatario_id": "USR-011",
+    "puntaje": 3,
+    "comentario": "Buena atención durante toda la operación.",
+    "fecha": "2026-02-21T00:00:00Z"
+  },
+  {
+    "resena_id": "REV-080",
+    "reserva_id": "RES-090",
+    "producto_id": "PROD-041",
+    "usuario_autor_id": "USR-039",
+    "usuario_destinatario_id": "USR-012",
+    "puntaje": 4,
+    "comentario": "Cumplió con lo publicado y volvería a alquilar.",
+    "fecha": "2026-02-24T00:00:00Z"
+  }
+]

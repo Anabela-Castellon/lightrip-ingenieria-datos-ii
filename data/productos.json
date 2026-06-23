@@ -1,0 +1,3097 @@
+[
+  {
+    "producto_id": "PROD-001",
+    "usuario_propietario_id": "USR-002",
+    "nombre": "Carpa térmica de montaña",
+    "descripcion": "Carpa para cuatro personas, apta para montaña.",
+    "categoria": "Camping",
+    "subcategoria": "Carpas",
+    "ubicacion": {
+      "ciudad": "Bariloche",
+      "provincia": "Río Negro",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 18000,
+    "estado": "disponible",
+    "especificaciones": {
+      "capacidad": 4,
+      "impermeabilidad_mm": 3000,
+      "cantidad_estaciones": 4
+    },
+    "etiquetas": [
+      "camping",
+      "montaña",
+      "impermeable"
+    ],
+    "fecha_publicacion": "2026-04-15T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-002",
+    "usuario_propietario_id": "USR-003",
+    "nombre": "Carpa familiar reforzada",
+    "descripcion": "Carpa espaciosa para grupos y familias.",
+    "categoria": "Camping",
+    "subcategoria": "Carpas",
+    "ubicacion": {
+      "ciudad": "Bariloche",
+      "provincia": "Río Negro",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 22000,
+    "estado": "disponible",
+    "especificaciones": {
+      "capacidad": 6,
+      "impermeabilidad_mm": 5000,
+      "cantidad_estaciones": 4
+    },
+    "etiquetas": [
+      "camping",
+      "familiar",
+      "impermeable"
+    ],
+    "fecha_publicacion": "2026-04-18T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-003",
+    "usuario_propietario_id": "USR-004",
+    "nombre": "Carpa compacta para dos",
+    "descripcion": "Carpa liviana para escapadas cortas.",
+    "categoria": "Camping",
+    "subcategoria": "Carpas",
+    "ubicacion": {
+      "ciudad": "Bariloche",
+      "provincia": "Río Negro",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 12500,
+    "estado": "disponible",
+    "especificaciones": {
+      "capacidad": 2,
+      "impermeabilidad_mm": 2000,
+      "cantidad_estaciones": 3
+    },
+    "etiquetas": [
+      "camping",
+      "liviana"
+    ],
+    "fecha_publicacion": "2026-04-20T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-004",
+    "usuario_propietario_id": "USR-005",
+    "nombre": "Mochila de trekking 60 litros",
+    "descripcion": "Mochila con soporte lumbar y cobertor.",
+    "categoria": "Camping",
+    "subcategoria": "Mochilas",
+    "ubicacion": {
+      "ciudad": "Bariloche",
+      "provincia": "Río Negro",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 9500,
+    "estado": "disponible",
+    "especificaciones": {
+      "capacidad_litros": 60,
+      "impermeable": true,
+      "peso_kg": 1.8
+    },
+    "etiquetas": [
+      "trekking",
+      "mochila",
+      "montaña"
+    ],
+    "fecha_publicacion": "2026-04-22T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-005",
+    "usuario_propietario_id": "USR-006",
+    "nombre": "Bolsa de dormir -10 °C",
+    "descripcion": "Bolsa térmica para bajas temperaturas.",
+    "categoria": "Camping",
+    "subcategoria": "Bolsas de dormir",
+    "ubicacion": {
+      "ciudad": "Bariloche",
+      "provincia": "Río Negro",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 8000,
+    "estado": "disponible",
+    "especificaciones": {
+      "temperatura_minima_c": -10,
+      "material": "Sintético",
+      "peso_kg": 1.5
+    },
+    "etiquetas": [
+      "camping",
+      "frío",
+      "montaña"
+    ],
+    "fecha_publicacion": "2026-04-24T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-006",
+    "usuario_propietario_id": "USR-007",
+    "nombre": "Kit de cocina de camping",
+    "descripcion": "Anafe, olla y utensilios para dos personas.",
+    "categoria": "Camping",
+    "subcategoria": "Cocina",
+    "ubicacion": {
+      "ciudad": "Bariloche",
+      "provincia": "Río Negro",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 7000,
+    "estado": "disponible",
+    "especificaciones": {
+      "cantidad_personas": 2,
+      "incluye_anafe": true,
+      "peso_kg": 2.1
+    },
+    "etiquetas": [
+      "camping",
+      "cocina",
+      "anafe"
+    ],
+    "fecha_publicacion": "2026-04-26T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-007",
+    "usuario_propietario_id": "USR-014",
+    "nombre": "Camperas modelo 007",
+    "descripcion": "Producto de indumentaria preparado para alquiler temporal.",
+    "categoria": "Indumentaria",
+    "subcategoria": "Camperas",
+    "ubicacion": {
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 13750,
+    "estado": "disponible",
+    "especificaciones": {
+      "talle": "XL",
+      "nivel_abrigo": "alto",
+      "impermeable": true
+    },
+    "etiquetas": [
+      "indumentaria",
+      "camperas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-02-08T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-008",
+    "usuario_propietario_id": "USR-027",
+    "nombre": "Monopatines modelo 008",
+    "descripcion": "Producto de movilidad preparado para alquiler temporal.",
+    "categoria": "Movilidad",
+    "subcategoria": "Monopatines",
+    "ubicacion": {
+      "ciudad": "Bariloche",
+      "provincia": "Río Negro",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 15000,
+    "estado": "disponible",
+    "especificaciones": {
+      "autonomia_km": 28,
+      "velocidad_max_kmh": 25,
+      "electrico": true
+    },
+    "etiquetas": [
+      "movilidad",
+      "monopatines",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-02-09T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-009",
+    "usuario_propietario_id": "USR-035",
+    "nombre": "Sombrillas modelo 009",
+    "descripcion": "Producto de playa preparado para alquiler temporal.",
+    "categoria": "Playa",
+    "subcategoria": "Sombrillas",
+    "ubicacion": {
+      "ciudad": "Córdoba",
+      "provincia": "Córdoba",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 16250,
+    "estado": "disponible",
+    "especificaciones": {
+      "diametro_m": 1.8,
+      "proteccion_uv": true
+    },
+    "etiquetas": [
+      "playa",
+      "sombrillas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-02-10T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-010",
+    "usuario_propietario_id": "USR-014",
+    "nombre": "Bolsos modelo 010",
+    "descripcion": "Producto de equipaje preparado para alquiler temporal.",
+    "categoria": "Equipaje",
+    "subcategoria": "Bolsos",
+    "ubicacion": {
+      "ciudad": "Mendoza",
+      "provincia": "Mendoza",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 17500,
+    "estado": "pausado",
+    "especificaciones": {
+      "capacidad_litros": 40,
+      "impermeable": false
+    },
+    "etiquetas": [
+      "equipaje",
+      "bolsos",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-02-11T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-011",
+    "usuario_propietario_id": "USR-025",
+    "nombre": "Bastones modelo 011",
+    "descripcion": "Producto de montaña preparado para alquiler temporal.",
+    "categoria": "Montaña",
+    "subcategoria": "Bastones",
+    "ubicacion": {
+      "ciudad": "Mar del Plata",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 18750,
+    "estado": "disponible",
+    "especificaciones": {
+      "material": "aluminio",
+      "regulables": true,
+      "largo_max_cm": 130
+    },
+    "etiquetas": [
+      "montaña",
+      "bastones",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-02-12T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-012",
+    "usuario_propietario_id": "USR-036",
+    "nombre": "Tablas SUP modelo 012",
+    "descripcion": "Producto de actividades acuáticas preparado para alquiler temporal.",
+    "categoria": "Actividades acuáticas",
+    "subcategoria": "Tablas SUP",
+    "ubicacion": {
+      "ciudad": "Salta",
+      "provincia": "Salta",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 20000,
+    "estado": "disponible",
+    "especificaciones": {
+      "largo_pies": 10,
+      "inflable": true,
+      "incluye_remo": true
+    },
+    "etiquetas": [
+      "actividades acuáticas",
+      "tablas sup",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-02-13T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-013",
+    "usuario_propietario_id": "USR-047",
+    "nombre": "Bolsas de dormir modelo 013",
+    "descripcion": "Producto de camping preparado para alquiler temporal.",
+    "categoria": "Camping",
+    "subcategoria": "Bolsas de dormir",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 21250,
+    "estado": "disponible",
+    "especificaciones": {
+      "temperatura_minima_c": -8,
+      "material": "Sintético",
+      "peso_kg": 1.4
+    },
+    "etiquetas": [
+      "camping",
+      "bolsas de dormir",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-02-14T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-014",
+    "usuario_propietario_id": "USR-009",
+    "nombre": "Botas modelo 014",
+    "descripcion": "Producto de indumentaria preparado para alquiler temporal.",
+    "categoria": "Indumentaria",
+    "subcategoria": "Botas",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 22500,
+    "estado": "disponible",
+    "especificaciones": {
+      "talle": 40,
+      "impermeable": true,
+      "tipo_suela": "trekking"
+    },
+    "etiquetas": [
+      "indumentaria",
+      "botas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-02-15T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-015",
+    "usuario_propietario_id": "USR-020",
+    "nombre": "Bicicletas modelo 015",
+    "descripcion": "Producto de movilidad preparado para alquiler temporal.",
+    "categoria": "Movilidad",
+    "subcategoria": "Bicicletas",
+    "ubicacion": {
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 23750,
+    "estado": "disponible",
+    "especificaciones": {
+      "rodado": 26,
+      "tipo_freno": "v-brake",
+      "cambios": 23
+    },
+    "etiquetas": [
+      "movilidad",
+      "bicicletas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-02-16T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-016",
+    "usuario_propietario_id": "USR-031",
+    "nombre": "Reposeras modelo 016",
+    "descripcion": "Producto de playa preparado para alquiler temporal.",
+    "categoria": "Playa",
+    "subcategoria": "Reposeras",
+    "ubicacion": {
+      "ciudad": "Bariloche",
+      "provincia": "Río Negro",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 25000,
+    "estado": "disponible",
+    "especificaciones": {
+      "posiciones": 4,
+      "material": "aluminio"
+    },
+    "etiquetas": [
+      "playa",
+      "reposeras",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-02-17T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-017",
+    "usuario_propietario_id": "USR-042",
+    "nombre": "Valijas modelo 017",
+    "descripcion": "Producto de equipaje preparado para alquiler temporal.",
+    "categoria": "Equipaje",
+    "subcategoria": "Valijas",
+    "ubicacion": {
+      "ciudad": "Córdoba",
+      "provincia": "Córdoba",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 26250,
+    "estado": "disponible",
+    "especificaciones": {
+      "capacidad_litros": 57,
+      "tipo": "rígida",
+      "ruedas": 4
+    },
+    "etiquetas": [
+      "equipaje",
+      "valijas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-02-18T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-018",
+    "usuario_propietario_id": "USR-004",
+    "nombre": "Crampones modelo 018",
+    "descripcion": "Producto de montaña preparado para alquiler temporal.",
+    "categoria": "Montaña",
+    "subcategoria": "Crampones",
+    "ubicacion": {
+      "ciudad": "Mendoza",
+      "provincia": "Mendoza",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 27500,
+    "estado": "disponible",
+    "especificaciones": {
+      "puntas": 10,
+      "material": "acero",
+      "talle_ajustable": true
+    },
+    "etiquetas": [
+      "montaña",
+      "crampones",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-02-19T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-019",
+    "usuario_propietario_id": "USR-015",
+    "nombre": "Kayaks modelo 019",
+    "descripcion": "Producto de actividades acuáticas preparado para alquiler temporal.",
+    "categoria": "Actividades acuáticas",
+    "subcategoria": "Kayaks",
+    "ubicacion": {
+      "ciudad": "Mar del Plata",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 28750,
+    "estado": "disponible",
+    "especificaciones": {
+      "capacidad_personas": 2,
+      "incluye_chaleco": true,
+      "largo_m": 3.4
+    },
+    "etiquetas": [
+      "actividades acuáticas",
+      "kayaks",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-02-20T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-020",
+    "usuario_propietario_id": "USR-026",
+    "nombre": "Mochilas modelo 020",
+    "descripcion": "Producto de camping preparado para alquiler temporal.",
+    "categoria": "Camping",
+    "subcategoria": "Mochilas",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 5000,
+    "estado": "pausado",
+    "especificaciones": {
+      "capacidad_litros": 60,
+      "impermeable": false,
+      "peso_kg": 1.2
+    },
+    "etiquetas": [
+      "camping",
+      "mochilas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-02-21T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-021",
+    "usuario_propietario_id": "USR-037",
+    "nombre": "Pantalones modelo 021",
+    "descripcion": "Producto de indumentaria preparado para alquiler temporal.",
+    "categoria": "Indumentaria",
+    "subcategoria": "Pantalones",
+    "ubicacion": {
+      "ciudad": "Ushuaia",
+      "provincia": "Tierra del Fuego",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 6250,
+    "estado": "disponible",
+    "especificaciones": {
+      "talle": "M",
+      "material": "ripstop",
+      "impermeable": true
+    },
+    "etiquetas": [
+      "indumentaria",
+      "pantalones",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-02-22T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-022",
+    "usuario_propietario_id": "USR-048",
+    "nombre": "Monopatines modelo 022",
+    "descripcion": "Producto de movilidad preparado para alquiler temporal.",
+    "categoria": "Movilidad",
+    "subcategoria": "Monopatines",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 7500,
+    "estado": "disponible",
+    "especificaciones": {
+      "autonomia_km": 27,
+      "velocidad_max_kmh": 25,
+      "electrico": true
+    },
+    "etiquetas": [
+      "movilidad",
+      "monopatines",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-02-23T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-023",
+    "usuario_propietario_id": "USR-010",
+    "nombre": "Sombrillas modelo 023",
+    "descripcion": "Producto de playa preparado para alquiler temporal.",
+    "categoria": "Playa",
+    "subcategoria": "Sombrillas",
+    "ubicacion": {
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 8750,
+    "estado": "disponible",
+    "especificaciones": {
+      "diametro_m": 2.2,
+      "proteccion_uv": true
+    },
+    "etiquetas": [
+      "playa",
+      "sombrillas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-02-24T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-024",
+    "usuario_propietario_id": "USR-021",
+    "nombre": "Bolsos modelo 024",
+    "descripcion": "Producto de equipaje preparado para alquiler temporal.",
+    "categoria": "Equipaje",
+    "subcategoria": "Bolsos",
+    "ubicacion": {
+      "ciudad": "Bariloche",
+      "provincia": "Río Negro",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 10000,
+    "estado": "disponible",
+    "especificaciones": {
+      "capacidad_litros": 54,
+      "impermeable": false
+    },
+    "etiquetas": [
+      "equipaje",
+      "bolsos",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-02-25T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-025",
+    "usuario_propietario_id": "USR-032",
+    "nombre": "Bastones modelo 025",
+    "descripcion": "Producto de montaña preparado para alquiler temporal.",
+    "categoria": "Montaña",
+    "subcategoria": "Bastones",
+    "ubicacion": {
+      "ciudad": "Córdoba",
+      "provincia": "Córdoba",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 11250,
+    "estado": "disponible",
+    "especificaciones": {
+      "material": "aluminio",
+      "regulables": true,
+      "largo_max_cm": 130
+    },
+    "etiquetas": [
+      "montaña",
+      "bastones",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-02-26T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-026",
+    "usuario_propietario_id": "USR-043",
+    "nombre": "Tablas SUP modelo 026",
+    "descripcion": "Producto de actividades acuáticas preparado para alquiler temporal.",
+    "categoria": "Actividades acuáticas",
+    "subcategoria": "Tablas SUP",
+    "ubicacion": {
+      "ciudad": "Mendoza",
+      "provincia": "Mendoza",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 12500,
+    "estado": "disponible",
+    "especificaciones": {
+      "largo_pies": 12,
+      "inflable": true,
+      "incluye_remo": true
+    },
+    "etiquetas": [
+      "actividades acuáticas",
+      "tablas sup",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-02-27T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-027",
+    "usuario_propietario_id": "USR-005",
+    "nombre": "Carpas modelo 027",
+    "descripcion": "Producto de camping preparado para alquiler temporal.",
+    "categoria": "Camping",
+    "subcategoria": "Carpas",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 13750,
+    "estado": "disponible",
+    "especificaciones": {
+      "capacidad": 3,
+      "impermeabilidad_mm": 1800,
+      "cantidad_estaciones": 3
+    },
+    "etiquetas": [
+      "camping",
+      "carpas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-02-28T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-028",
+    "usuario_propietario_id": "USR-016",
+    "nombre": "Camperas modelo 028",
+    "descripcion": "Producto de indumentaria preparado para alquiler temporal.",
+    "categoria": "Indumentaria",
+    "subcategoria": "Camperas",
+    "ubicacion": {
+      "ciudad": "Salta",
+      "provincia": "Salta",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 15000,
+    "estado": "disponible",
+    "especificaciones": {
+      "talle": "S",
+      "nivel_abrigo": "medio",
+      "impermeable": false
+    },
+    "etiquetas": [
+      "indumentaria",
+      "camperas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-03-01T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-029",
+    "usuario_propietario_id": "USR-027",
+    "nombre": "Bicicletas modelo 029",
+    "descripcion": "Producto de movilidad preparado para alquiler temporal.",
+    "categoria": "Movilidad",
+    "subcategoria": "Bicicletas",
+    "ubicacion": {
+      "ciudad": "Ushuaia",
+      "provincia": "Tierra del Fuego",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 16250,
+    "estado": "disponible",
+    "especificaciones": {
+      "rodado": 29,
+      "tipo_freno": "v-brake",
+      "cambios": 27
+    },
+    "etiquetas": [
+      "movilidad",
+      "bicicletas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-03-02T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-030",
+    "usuario_propietario_id": "USR-038",
+    "nombre": "Reposeras modelo 030",
+    "descripcion": "Producto de playa preparado para alquiler temporal.",
+    "categoria": "Playa",
+    "subcategoria": "Reposeras",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 17500,
+    "estado": "pausado",
+    "especificaciones": {
+      "posiciones": 3,
+      "material": "aluminio"
+    },
+    "etiquetas": [
+      "playa",
+      "reposeras",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-03-03T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-031",
+    "usuario_propietario_id": "USR-049",
+    "nombre": "Valijas modelo 031",
+    "descripcion": "Producto de equipaje preparado para alquiler temporal.",
+    "categoria": "Equipaje",
+    "subcategoria": "Valijas",
+    "ubicacion": {
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 18750,
+    "estado": "disponible",
+    "especificaciones": {
+      "capacidad_litros": 71,
+      "tipo": "rígida",
+      "ruedas": 4
+    },
+    "etiquetas": [
+      "equipaje",
+      "valijas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-03-04T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-032",
+    "usuario_propietario_id": "USR-011",
+    "nombre": "Crampones modelo 032",
+    "descripcion": "Producto de montaña preparado para alquiler temporal.",
+    "categoria": "Montaña",
+    "subcategoria": "Crampones",
+    "ubicacion": {
+      "ciudad": "Bariloche",
+      "provincia": "Río Negro",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 20000,
+    "estado": "disponible",
+    "especificaciones": {
+      "puntas": 12,
+      "material": "acero",
+      "talle_ajustable": true
+    },
+    "etiquetas": [
+      "montaña",
+      "crampones",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-03-05T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-033",
+    "usuario_propietario_id": "USR-022",
+    "nombre": "Kayaks modelo 033",
+    "descripcion": "Producto de actividades acuáticas preparado para alquiler temporal.",
+    "categoria": "Actividades acuáticas",
+    "subcategoria": "Kayaks",
+    "ubicacion": {
+      "ciudad": "Córdoba",
+      "provincia": "Córdoba",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 21250,
+    "estado": "disponible",
+    "especificaciones": {
+      "capacidad_personas": 2,
+      "incluye_chaleco": true,
+      "largo_m": 3.3
+    },
+    "etiquetas": [
+      "actividades acuáticas",
+      "kayaks",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-03-06T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-034",
+    "usuario_propietario_id": "USR-033",
+    "nombre": "Cocina modelo 034",
+    "descripcion": "Producto de camping preparado para alquiler temporal.",
+    "categoria": "Camping",
+    "subcategoria": "Cocina",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 22500,
+    "estado": "disponible",
+    "especificaciones": {
+      "cantidad_personas": 4,
+      "incluye_anafe": false,
+      "peso_kg": 2.0
+    },
+    "etiquetas": [
+      "camping",
+      "cocina",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-03-07T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-035",
+    "usuario_propietario_id": "USR-044",
+    "nombre": "Botas modelo 035",
+    "descripcion": "Producto de indumentaria preparado para alquiler temporal.",
+    "categoria": "Indumentaria",
+    "subcategoria": "Botas",
+    "ubicacion": {
+      "ciudad": "Mar del Plata",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 23750,
+    "estado": "disponible",
+    "especificaciones": {
+      "talle": 41,
+      "impermeable": true,
+      "tipo_suela": "trekking"
+    },
+    "etiquetas": [
+      "indumentaria",
+      "botas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-03-08T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-036",
+    "usuario_propietario_id": "USR-006",
+    "nombre": "Monopatines modelo 036",
+    "descripcion": "Producto de movilidad preparado para alquiler temporal.",
+    "categoria": "Movilidad",
+    "subcategoria": "Monopatines",
+    "ubicacion": {
+      "ciudad": "Salta",
+      "provincia": "Salta",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 25000,
+    "estado": "disponible",
+    "especificaciones": {
+      "autonomia_km": 26,
+      "velocidad_max_kmh": 25,
+      "electrico": true
+    },
+    "etiquetas": [
+      "movilidad",
+      "monopatines",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-03-09T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-037",
+    "usuario_propietario_id": "USR-017",
+    "nombre": "Sombrillas modelo 037",
+    "descripcion": "Producto de playa preparado para alquiler temporal.",
+    "categoria": "Playa",
+    "subcategoria": "Sombrillas",
+    "ubicacion": {
+      "ciudad": "Ushuaia",
+      "provincia": "Tierra del Fuego",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 26250,
+    "estado": "disponible",
+    "especificaciones": {
+      "diametro_m": 2.0,
+      "proteccion_uv": true
+    },
+    "etiquetas": [
+      "playa",
+      "sombrillas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-03-10T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-038",
+    "usuario_propietario_id": "USR-028",
+    "nombre": "Bolsos modelo 038",
+    "descripcion": "Producto de equipaje preparado para alquiler temporal.",
+    "categoria": "Equipaje",
+    "subcategoria": "Bolsos",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 27500,
+    "estado": "disponible",
+    "especificaciones": {
+      "capacidad_litros": 68,
+      "impermeable": false
+    },
+    "etiquetas": [
+      "equipaje",
+      "bolsos",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-03-11T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-039",
+    "usuario_propietario_id": "USR-039",
+    "nombre": "Bastones modelo 039",
+    "descripcion": "Producto de montaña preparado para alquiler temporal.",
+    "categoria": "Montaña",
+    "subcategoria": "Bastones",
+    "ubicacion": {
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 28750,
+    "estado": "disponible",
+    "especificaciones": {
+      "material": "aluminio",
+      "regulables": true,
+      "largo_max_cm": 130
+    },
+    "etiquetas": [
+      "montaña",
+      "bastones",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-03-12T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-040",
+    "usuario_propietario_id": "USR-050",
+    "nombre": "Tablas SUP modelo 040",
+    "descripcion": "Producto de actividades acuáticas preparado para alquiler temporal.",
+    "categoria": "Actividades acuáticas",
+    "subcategoria": "Tablas SUP",
+    "ubicacion": {
+      "ciudad": "Bariloche",
+      "provincia": "Río Negro",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 5000,
+    "estado": "pausado",
+    "especificaciones": {
+      "largo_pies": 11,
+      "inflable": true,
+      "incluye_remo": true
+    },
+    "etiquetas": [
+      "actividades acuáticas",
+      "tablas sup",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-03-13T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-041",
+    "usuario_propietario_id": "USR-012",
+    "nombre": "Bolsas de dormir modelo 041",
+    "descripcion": "Producto de camping preparado para alquiler temporal.",
+    "categoria": "Camping",
+    "subcategoria": "Bolsas de dormir",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 6250,
+    "estado": "disponible",
+    "especificaciones": {
+      "temperatura_minima_c": -6,
+      "material": "Sintético",
+      "peso_kg": 1.4
+    },
+    "etiquetas": [
+      "camping",
+      "bolsas de dormir",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-03-14T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-042",
+    "usuario_propietario_id": "USR-023",
+    "nombre": "Pantalones modelo 042",
+    "descripcion": "Producto de indumentaria preparado para alquiler temporal.",
+    "categoria": "Indumentaria",
+    "subcategoria": "Pantalones",
+    "ubicacion": {
+      "ciudad": "Mendoza",
+      "provincia": "Mendoza",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 7500,
+    "estado": "disponible",
+    "especificaciones": {
+      "talle": "L",
+      "material": "ripstop",
+      "impermeable": false
+    },
+    "etiquetas": [
+      "indumentaria",
+      "pantalones",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-03-15T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-043",
+    "usuario_propietario_id": "USR-034",
+    "nombre": "Bicicletas modelo 043",
+    "descripcion": "Producto de movilidad preparado para alquiler temporal.",
+    "categoria": "Movilidad",
+    "subcategoria": "Bicicletas",
+    "ubicacion": {
+      "ciudad": "Mar del Plata",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 8750,
+    "estado": "disponible",
+    "especificaciones": {
+      "rodado": 27.5,
+      "tipo_freno": "v-brake",
+      "cambios": 21
+    },
+    "etiquetas": [
+      "movilidad",
+      "bicicletas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-03-16T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-044",
+    "usuario_propietario_id": "USR-045",
+    "nombre": "Reposeras modelo 044",
+    "descripcion": "Producto de playa preparado para alquiler temporal.",
+    "categoria": "Playa",
+    "subcategoria": "Reposeras",
+    "ubicacion": {
+      "ciudad": "Salta",
+      "provincia": "Salta",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 10000,
+    "estado": "disponible",
+    "especificaciones": {
+      "posiciones": 5,
+      "material": "aluminio"
+    },
+    "etiquetas": [
+      "playa",
+      "reposeras",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-03-17T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-045",
+    "usuario_propietario_id": "USR-007",
+    "nombre": "Valijas modelo 045",
+    "descripcion": "Producto de equipaje preparado para alquiler temporal.",
+    "categoria": "Equipaje",
+    "subcategoria": "Valijas",
+    "ubicacion": {
+      "ciudad": "Ushuaia",
+      "provincia": "Tierra del Fuego",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 11250,
+    "estado": "disponible",
+    "especificaciones": {
+      "capacidad_litros": 85,
+      "tipo": "rígida",
+      "ruedas": 4
+    },
+    "etiquetas": [
+      "equipaje",
+      "valijas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-03-18T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-046",
+    "usuario_propietario_id": "USR-018",
+    "nombre": "Crampones modelo 046",
+    "descripcion": "Producto de montaña preparado para alquiler temporal.",
+    "categoria": "Montaña",
+    "subcategoria": "Crampones",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 12500,
+    "estado": "disponible",
+    "especificaciones": {
+      "puntas": 11,
+      "material": "acero",
+      "talle_ajustable": true
+    },
+    "etiquetas": [
+      "montaña",
+      "crampones",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-03-19T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-047",
+    "usuario_propietario_id": "USR-029",
+    "nombre": "Kayaks modelo 047",
+    "descripcion": "Producto de actividades acuáticas preparado para alquiler temporal.",
+    "categoria": "Actividades acuáticas",
+    "subcategoria": "Kayaks",
+    "ubicacion": {
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 13750,
+    "estado": "disponible",
+    "especificaciones": {
+      "capacidad_personas": 2,
+      "incluye_chaleco": true,
+      "largo_m": 3.2
+    },
+    "etiquetas": [
+      "actividades acuáticas",
+      "kayaks",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-03-20T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-048",
+    "usuario_propietario_id": "USR-040",
+    "nombre": "Mochilas modelo 048",
+    "descripcion": "Producto de camping preparado para alquiler temporal.",
+    "categoria": "Camping",
+    "subcategoria": "Mochilas",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 15000,
+    "estado": "disponible",
+    "especificaciones": {
+      "capacidad_litros": 58,
+      "impermeable": false,
+      "peso_kg": 1.2
+    },
+    "etiquetas": [
+      "camping",
+      "mochilas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-03-21T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-049",
+    "usuario_propietario_id": "USR-002",
+    "nombre": "Camperas modelo 049",
+    "descripcion": "Producto de indumentaria preparado para alquiler temporal.",
+    "categoria": "Indumentaria",
+    "subcategoria": "Camperas",
+    "ubicacion": {
+      "ciudad": "Córdoba",
+      "provincia": "Córdoba",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 16250,
+    "estado": "disponible",
+    "especificaciones": {
+      "talle": "M",
+      "nivel_abrigo": "alto",
+      "impermeable": true
+    },
+    "etiquetas": [
+      "indumentaria",
+      "camperas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-03-22T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-050",
+    "usuario_propietario_id": "USR-013",
+    "nombre": "Monopatines modelo 050",
+    "descripcion": "Producto de movilidad preparado para alquiler temporal.",
+    "categoria": "Movilidad",
+    "subcategoria": "Monopatines",
+    "ubicacion": {
+      "ciudad": "Mendoza",
+      "provincia": "Mendoza",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 17500,
+    "estado": "pausado",
+    "especificaciones": {
+      "autonomia_km": 25,
+      "velocidad_max_kmh": 25,
+      "electrico": true
+    },
+    "etiquetas": [
+      "movilidad",
+      "monopatines",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-03-23T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-051",
+    "usuario_propietario_id": "USR-024",
+    "nombre": "Sombrillas modelo 051",
+    "descripcion": "Producto de playa preparado para alquiler temporal.",
+    "categoria": "Playa",
+    "subcategoria": "Sombrillas",
+    "ubicacion": {
+      "ciudad": "Mar del Plata",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 18750,
+    "estado": "disponible",
+    "especificaciones": {
+      "diametro_m": 1.8,
+      "proteccion_uv": true
+    },
+    "etiquetas": [
+      "playa",
+      "sombrillas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-03-24T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-052",
+    "usuario_propietario_id": "USR-035",
+    "nombre": "Bolsos modelo 052",
+    "descripcion": "Producto de equipaje preparado para alquiler temporal.",
+    "categoria": "Equipaje",
+    "subcategoria": "Bolsos",
+    "ubicacion": {
+      "ciudad": "Salta",
+      "provincia": "Salta",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 20000,
+    "estado": "disponible",
+    "especificaciones": {
+      "capacidad_litros": 42,
+      "impermeable": false
+    },
+    "etiquetas": [
+      "equipaje",
+      "bolsos",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-03-25T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-053",
+    "usuario_propietario_id": "USR-046",
+    "nombre": "Bastones modelo 053",
+    "descripcion": "Producto de montaña preparado para alquiler temporal.",
+    "categoria": "Montaña",
+    "subcategoria": "Bastones",
+    "ubicacion": {
+      "ciudad": "Ushuaia",
+      "provincia": "Tierra del Fuego",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 21250,
+    "estado": "disponible",
+    "especificaciones": {
+      "material": "aluminio",
+      "regulables": true,
+      "largo_max_cm": 130
+    },
+    "etiquetas": [
+      "montaña",
+      "bastones",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-03-26T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-054",
+    "usuario_propietario_id": "USR-008",
+    "nombre": "Tablas SUP modelo 054",
+    "descripcion": "Producto de actividades acuáticas preparado para alquiler temporal.",
+    "categoria": "Actividades acuáticas",
+    "subcategoria": "Tablas SUP",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 22500,
+    "estado": "disponible",
+    "especificaciones": {
+      "largo_pies": 10,
+      "inflable": true,
+      "incluye_remo": true
+    },
+    "etiquetas": [
+      "actividades acuáticas",
+      "tablas sup",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-03-27T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-055",
+    "usuario_propietario_id": "USR-019",
+    "nombre": "Carpas modelo 055",
+    "descripcion": "Producto de camping preparado para alquiler temporal.",
+    "categoria": "Camping",
+    "subcategoria": "Carpas",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 23750,
+    "estado": "disponible",
+    "especificaciones": {
+      "capacidad": 3,
+      "impermeabilidad_mm": 1800,
+      "cantidad_estaciones": 3
+    },
+    "etiquetas": [
+      "camping",
+      "carpas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-03-28T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-056",
+    "usuario_propietario_id": "USR-030",
+    "nombre": "Botas modelo 056",
+    "descripcion": "Producto de indumentaria preparado para alquiler temporal.",
+    "categoria": "Indumentaria",
+    "subcategoria": "Botas",
+    "ubicacion": {
+      "ciudad": "Bariloche",
+      "provincia": "Río Negro",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 25000,
+    "estado": "disponible",
+    "especificaciones": {
+      "talle": 42,
+      "impermeable": true,
+      "tipo_suela": "trekking"
+    },
+    "etiquetas": [
+      "indumentaria",
+      "botas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-03-29T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-057",
+    "usuario_propietario_id": "USR-041",
+    "nombre": "Bicicletas modelo 057",
+    "descripcion": "Producto de movilidad preparado para alquiler temporal.",
+    "categoria": "Movilidad",
+    "subcategoria": "Bicicletas",
+    "ubicacion": {
+      "ciudad": "Córdoba",
+      "provincia": "Córdoba",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 26250,
+    "estado": "disponible",
+    "especificaciones": {
+      "rodado": 26,
+      "tipo_freno": "v-brake",
+      "cambios": 25
+    },
+    "etiquetas": [
+      "movilidad",
+      "bicicletas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-03-30T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-058",
+    "usuario_propietario_id": "USR-003",
+    "nombre": "Reposeras modelo 058",
+    "descripcion": "Producto de playa preparado para alquiler temporal.",
+    "categoria": "Playa",
+    "subcategoria": "Reposeras",
+    "ubicacion": {
+      "ciudad": "Mendoza",
+      "provincia": "Mendoza",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 27500,
+    "estado": "disponible",
+    "especificaciones": {
+      "posiciones": 4,
+      "material": "aluminio"
+    },
+    "etiquetas": [
+      "playa",
+      "reposeras",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-03-31T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-059",
+    "usuario_propietario_id": "USR-014",
+    "nombre": "Valijas modelo 059",
+    "descripcion": "Producto de equipaje preparado para alquiler temporal.",
+    "categoria": "Equipaje",
+    "subcategoria": "Valijas",
+    "ubicacion": {
+      "ciudad": "Mar del Plata",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 28750,
+    "estado": "disponible",
+    "especificaciones": {
+      "capacidad_litros": 49,
+      "tipo": "rígida",
+      "ruedas": 4
+    },
+    "etiquetas": [
+      "equipaje",
+      "valijas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-04-01T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-060",
+    "usuario_propietario_id": "USR-025",
+    "nombre": "Crampones modelo 060",
+    "descripcion": "Producto de montaña preparado para alquiler temporal.",
+    "categoria": "Montaña",
+    "subcategoria": "Crampones",
+    "ubicacion": {
+      "ciudad": "Salta",
+      "provincia": "Salta",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 5000,
+    "estado": "pausado",
+    "especificaciones": {
+      "puntas": 10,
+      "material": "acero",
+      "talle_ajustable": true
+    },
+    "etiquetas": [
+      "montaña",
+      "crampones",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-04-02T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-061",
+    "usuario_propietario_id": "USR-036",
+    "nombre": "Kayaks modelo 061",
+    "descripcion": "Producto de actividades acuáticas preparado para alquiler temporal.",
+    "categoria": "Actividades acuáticas",
+    "subcategoria": "Kayaks",
+    "ubicacion": {
+      "ciudad": "Ushuaia",
+      "provincia": "Tierra del Fuego",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 6250,
+    "estado": "disponible",
+    "especificaciones": {
+      "capacidad_personas": 2,
+      "incluye_chaleco": true,
+      "largo_m": 3.1
+    },
+    "etiquetas": [
+      "actividades acuáticas",
+      "kayaks",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-04-03T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-062",
+    "usuario_propietario_id": "USR-047",
+    "nombre": "Cocina modelo 062",
+    "descripcion": "Producto de camping preparado para alquiler temporal.",
+    "categoria": "Camping",
+    "subcategoria": "Cocina",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 7500,
+    "estado": "disponible",
+    "especificaciones": {
+      "cantidad_personas": 4,
+      "incluye_anafe": false,
+      "peso_kg": 2.0
+    },
+    "etiquetas": [
+      "camping",
+      "cocina",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-04-04T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-063",
+    "usuario_propietario_id": "USR-009",
+    "nombre": "Pantalones modelo 063",
+    "descripcion": "Producto de indumentaria preparado para alquiler temporal.",
+    "categoria": "Indumentaria",
+    "subcategoria": "Pantalones",
+    "ubicacion": {
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 8750,
+    "estado": "disponible",
+    "especificaciones": {
+      "talle": "XL",
+      "material": "ripstop",
+      "impermeable": true
+    },
+    "etiquetas": [
+      "indumentaria",
+      "pantalones",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-04-05T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-064",
+    "usuario_propietario_id": "USR-020",
+    "nombre": "Monopatines modelo 064",
+    "descripcion": "Producto de movilidad preparado para alquiler temporal.",
+    "categoria": "Movilidad",
+    "subcategoria": "Monopatines",
+    "ubicacion": {
+      "ciudad": "Bariloche",
+      "provincia": "Río Negro",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 10000,
+    "estado": "disponible",
+    "especificaciones": {
+      "autonomia_km": 24,
+      "velocidad_max_kmh": 25,
+      "electrico": true
+    },
+    "etiquetas": [
+      "movilidad",
+      "monopatines",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-04-06T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-065",
+    "usuario_propietario_id": "USR-031",
+    "nombre": "Sombrillas modelo 065",
+    "descripcion": "Producto de playa preparado para alquiler temporal.",
+    "categoria": "Playa",
+    "subcategoria": "Sombrillas",
+    "ubicacion": {
+      "ciudad": "Córdoba",
+      "provincia": "Córdoba",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 11250,
+    "estado": "disponible",
+    "especificaciones": {
+      "diametro_m": 2.2,
+      "proteccion_uv": true
+    },
+    "etiquetas": [
+      "playa",
+      "sombrillas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-04-07T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-066",
+    "usuario_propietario_id": "USR-042",
+    "nombre": "Bolsos modelo 066",
+    "descripcion": "Producto de equipaje preparado para alquiler temporal.",
+    "categoria": "Equipaje",
+    "subcategoria": "Bolsos",
+    "ubicacion": {
+      "ciudad": "Mendoza",
+      "provincia": "Mendoza",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 12500,
+    "estado": "disponible",
+    "especificaciones": {
+      "capacidad_litros": 56,
+      "impermeable": false
+    },
+    "etiquetas": [
+      "equipaje",
+      "bolsos",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-04-08T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-067",
+    "usuario_propietario_id": "USR-004",
+    "nombre": "Bastones modelo 067",
+    "descripcion": "Producto de montaña preparado para alquiler temporal.",
+    "categoria": "Montaña",
+    "subcategoria": "Bastones",
+    "ubicacion": {
+      "ciudad": "Mar del Plata",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 13750,
+    "estado": "disponible",
+    "especificaciones": {
+      "material": "aluminio",
+      "regulables": true,
+      "largo_max_cm": 130
+    },
+    "etiquetas": [
+      "montaña",
+      "bastones",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-04-09T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-068",
+    "usuario_propietario_id": "USR-015",
+    "nombre": "Tablas SUP modelo 068",
+    "descripcion": "Producto de actividades acuáticas preparado para alquiler temporal.",
+    "categoria": "Actividades acuáticas",
+    "subcategoria": "Tablas SUP",
+    "ubicacion": {
+      "ciudad": "Salta",
+      "provincia": "Salta",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 15000,
+    "estado": "disponible",
+    "especificaciones": {
+      "largo_pies": 12,
+      "inflable": true,
+      "incluye_remo": true
+    },
+    "etiquetas": [
+      "actividades acuáticas",
+      "tablas sup",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-04-10T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-069",
+    "usuario_propietario_id": "USR-026",
+    "nombre": "Bolsas de dormir modelo 069",
+    "descripcion": "Producto de camping preparado para alquiler temporal.",
+    "categoria": "Camping",
+    "subcategoria": "Bolsas de dormir",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 16250,
+    "estado": "disponible",
+    "especificaciones": {
+      "temperatura_minima_c": -14,
+      "material": "Sintético",
+      "peso_kg": 1.4
+    },
+    "etiquetas": [
+      "camping",
+      "bolsas de dormir",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-04-11T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-070",
+    "usuario_propietario_id": "USR-037",
+    "nombre": "Camperas modelo 070",
+    "descripcion": "Producto de indumentaria preparado para alquiler temporal.",
+    "categoria": "Indumentaria",
+    "subcategoria": "Camperas",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 17500,
+    "estado": "pausado",
+    "especificaciones": {
+      "talle": "L",
+      "nivel_abrigo": "medio",
+      "impermeable": false
+    },
+    "etiquetas": [
+      "indumentaria",
+      "camperas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-04-12T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-071",
+    "usuario_propietario_id": "USR-048",
+    "nombre": "Bicicletas modelo 071",
+    "descripcion": "Producto de movilidad preparado para alquiler temporal.",
+    "categoria": "Movilidad",
+    "subcategoria": "Bicicletas",
+    "ubicacion": {
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 18750,
+    "estado": "disponible",
+    "especificaciones": {
+      "rodado": 29,
+      "tipo_freno": "v-brake",
+      "cambios": 19
+    },
+    "etiquetas": [
+      "movilidad",
+      "bicicletas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-04-13T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-072",
+    "usuario_propietario_id": "USR-010",
+    "nombre": "Reposeras modelo 072",
+    "descripcion": "Producto de playa preparado para alquiler temporal.",
+    "categoria": "Playa",
+    "subcategoria": "Reposeras",
+    "ubicacion": {
+      "ciudad": "Bariloche",
+      "provincia": "Río Negro",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 20000,
+    "estado": "disponible",
+    "especificaciones": {
+      "posiciones": 3,
+      "material": "aluminio"
+    },
+    "etiquetas": [
+      "playa",
+      "reposeras",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-04-14T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-073",
+    "usuario_propietario_id": "USR-021",
+    "nombre": "Valijas modelo 073",
+    "descripcion": "Producto de equipaje preparado para alquiler temporal.",
+    "categoria": "Equipaje",
+    "subcategoria": "Valijas",
+    "ubicacion": {
+      "ciudad": "Córdoba",
+      "provincia": "Córdoba",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 21250,
+    "estado": "disponible",
+    "especificaciones": {
+      "capacidad_litros": 63,
+      "tipo": "rígida",
+      "ruedas": 4
+    },
+    "etiquetas": [
+      "equipaje",
+      "valijas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-04-15T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-074",
+    "usuario_propietario_id": "USR-032",
+    "nombre": "Crampones modelo 074",
+    "descripcion": "Producto de montaña preparado para alquiler temporal.",
+    "categoria": "Montaña",
+    "subcategoria": "Crampones",
+    "ubicacion": {
+      "ciudad": "Mendoza",
+      "provincia": "Mendoza",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 22500,
+    "estado": "disponible",
+    "especificaciones": {
+      "puntas": 12,
+      "material": "acero",
+      "talle_ajustable": true
+    },
+    "etiquetas": [
+      "montaña",
+      "crampones",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-04-16T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-075",
+    "usuario_propietario_id": "USR-043",
+    "nombre": "Kayaks modelo 075",
+    "descripcion": "Producto de actividades acuáticas preparado para alquiler temporal.",
+    "categoria": "Actividades acuáticas",
+    "subcategoria": "Kayaks",
+    "ubicacion": {
+      "ciudad": "Mar del Plata",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 23750,
+    "estado": "disponible",
+    "especificaciones": {
+      "capacidad_personas": 2,
+      "incluye_chaleco": true,
+      "largo_m": 3.0
+    },
+    "etiquetas": [
+      "actividades acuáticas",
+      "kayaks",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-04-17T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-076",
+    "usuario_propietario_id": "USR-005",
+    "nombre": "Mochilas modelo 076",
+    "descripcion": "Producto de camping preparado para alquiler temporal.",
+    "categoria": "Camping",
+    "subcategoria": "Mochilas",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 25000,
+    "estado": "disponible",
+    "especificaciones": {
+      "capacidad_litros": 56,
+      "impermeable": false,
+      "peso_kg": 1.2
+    },
+    "etiquetas": [
+      "camping",
+      "mochilas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-04-18T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-077",
+    "usuario_propietario_id": "USR-016",
+    "nombre": "Botas modelo 077",
+    "descripcion": "Producto de indumentaria preparado para alquiler temporal.",
+    "categoria": "Indumentaria",
+    "subcategoria": "Botas",
+    "ubicacion": {
+      "ciudad": "Ushuaia",
+      "provincia": "Tierra del Fuego",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 26250,
+    "estado": "disponible",
+    "especificaciones": {
+      "talle": 43,
+      "impermeable": true,
+      "tipo_suela": "trekking"
+    },
+    "etiquetas": [
+      "indumentaria",
+      "botas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-04-19T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-078",
+    "usuario_propietario_id": "USR-027",
+    "nombre": "Monopatines modelo 078",
+    "descripcion": "Producto de movilidad preparado para alquiler temporal.",
+    "categoria": "Movilidad",
+    "subcategoria": "Monopatines",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 27500,
+    "estado": "disponible",
+    "especificaciones": {
+      "autonomia_km": 23,
+      "velocidad_max_kmh": 25,
+      "electrico": true
+    },
+    "etiquetas": [
+      "movilidad",
+      "monopatines",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-04-20T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-079",
+    "usuario_propietario_id": "USR-038",
+    "nombre": "Sombrillas modelo 079",
+    "descripcion": "Producto de playa preparado para alquiler temporal.",
+    "categoria": "Playa",
+    "subcategoria": "Sombrillas",
+    "ubicacion": {
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 28750,
+    "estado": "disponible",
+    "especificaciones": {
+      "diametro_m": 2.0,
+      "proteccion_uv": true
+    },
+    "etiquetas": [
+      "playa",
+      "sombrillas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-04-21T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-080",
+    "usuario_propietario_id": "USR-049",
+    "nombre": "Bolsos modelo 080",
+    "descripcion": "Producto de equipaje preparado para alquiler temporal.",
+    "categoria": "Equipaje",
+    "subcategoria": "Bolsos",
+    "ubicacion": {
+      "ciudad": "Bariloche",
+      "provincia": "Río Negro",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 5000,
+    "estado": "pausado",
+    "especificaciones": {
+      "capacidad_litros": 30,
+      "impermeable": false
+    },
+    "etiquetas": [
+      "equipaje",
+      "bolsos",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-04-22T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-081",
+    "usuario_propietario_id": "USR-011",
+    "nombre": "Bastones modelo 081",
+    "descripcion": "Producto de montaña preparado para alquiler temporal.",
+    "categoria": "Montaña",
+    "subcategoria": "Bastones",
+    "ubicacion": {
+      "ciudad": "Córdoba",
+      "provincia": "Córdoba",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 6250,
+    "estado": "disponible",
+    "especificaciones": {
+      "material": "aluminio",
+      "regulables": true,
+      "largo_max_cm": 130
+    },
+    "etiquetas": [
+      "montaña",
+      "bastones",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-04-23T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-082",
+    "usuario_propietario_id": "USR-022",
+    "nombre": "Tablas SUP modelo 082",
+    "descripcion": "Producto de actividades acuáticas preparado para alquiler temporal.",
+    "categoria": "Actividades acuáticas",
+    "subcategoria": "Tablas SUP",
+    "ubicacion": {
+      "ciudad": "Mendoza",
+      "provincia": "Mendoza",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 7500,
+    "estado": "disponible",
+    "especificaciones": {
+      "largo_pies": 11,
+      "inflable": true,
+      "incluye_remo": true
+    },
+    "etiquetas": [
+      "actividades acuáticas",
+      "tablas sup",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-04-24T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-083",
+    "usuario_propietario_id": "USR-033",
+    "nombre": "Carpas modelo 083",
+    "descripcion": "Producto de camping preparado para alquiler temporal.",
+    "categoria": "Camping",
+    "subcategoria": "Carpas",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 8750,
+    "estado": "disponible",
+    "especificaciones": {
+      "capacidad": 3,
+      "impermeabilidad_mm": 1800,
+      "cantidad_estaciones": 3
+    },
+    "etiquetas": [
+      "camping",
+      "carpas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-04-25T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-084",
+    "usuario_propietario_id": "USR-044",
+    "nombre": "Pantalones modelo 084",
+    "descripcion": "Producto de indumentaria preparado para alquiler temporal.",
+    "categoria": "Indumentaria",
+    "subcategoria": "Pantalones",
+    "ubicacion": {
+      "ciudad": "Salta",
+      "provincia": "Salta",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 10000,
+    "estado": "disponible",
+    "especificaciones": {
+      "talle": "S",
+      "material": "ripstop",
+      "impermeable": false
+    },
+    "etiquetas": [
+      "indumentaria",
+      "pantalones",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-04-26T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-085",
+    "usuario_propietario_id": "USR-006",
+    "nombre": "Bicicletas modelo 085",
+    "descripcion": "Producto de movilidad preparado para alquiler temporal.",
+    "categoria": "Movilidad",
+    "subcategoria": "Bicicletas",
+    "ubicacion": {
+      "ciudad": "Ushuaia",
+      "provincia": "Tierra del Fuego",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 11250,
+    "estado": "disponible",
+    "especificaciones": {
+      "rodado": 27.5,
+      "tipo_freno": "v-brake",
+      "cambios": 23
+    },
+    "etiquetas": [
+      "movilidad",
+      "bicicletas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-04-27T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-086",
+    "usuario_propietario_id": "USR-017",
+    "nombre": "Reposeras modelo 086",
+    "descripcion": "Producto de playa preparado para alquiler temporal.",
+    "categoria": "Playa",
+    "subcategoria": "Reposeras",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 12500,
+    "estado": "disponible",
+    "especificaciones": {
+      "posiciones": 5,
+      "material": "aluminio"
+    },
+    "etiquetas": [
+      "playa",
+      "reposeras",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-04-28T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-087",
+    "usuario_propietario_id": "USR-028",
+    "nombre": "Valijas modelo 087",
+    "descripcion": "Producto de equipaje preparado para alquiler temporal.",
+    "categoria": "Equipaje",
+    "subcategoria": "Valijas",
+    "ubicacion": {
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 13750,
+    "estado": "disponible",
+    "especificaciones": {
+      "capacidad_litros": 77,
+      "tipo": "rígida",
+      "ruedas": 4
+    },
+    "etiquetas": [
+      "equipaje",
+      "valijas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-04-29T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-088",
+    "usuario_propietario_id": "USR-039",
+    "nombre": "Crampones modelo 088",
+    "descripcion": "Producto de montaña preparado para alquiler temporal.",
+    "categoria": "Montaña",
+    "subcategoria": "Crampones",
+    "ubicacion": {
+      "ciudad": "Bariloche",
+      "provincia": "Río Negro",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 15000,
+    "estado": "disponible",
+    "especificaciones": {
+      "puntas": 11,
+      "material": "acero",
+      "talle_ajustable": true
+    },
+    "etiquetas": [
+      "montaña",
+      "crampones",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-04-30T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-089",
+    "usuario_propietario_id": "USR-050",
+    "nombre": "Kayaks modelo 089",
+    "descripcion": "Producto de actividades acuáticas preparado para alquiler temporal.",
+    "categoria": "Actividades acuáticas",
+    "subcategoria": "Kayaks",
+    "ubicacion": {
+      "ciudad": "Córdoba",
+      "provincia": "Córdoba",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 16250,
+    "estado": "disponible",
+    "especificaciones": {
+      "capacidad_personas": 2,
+      "incluye_chaleco": true,
+      "largo_m": 3.4
+    },
+    "etiquetas": [
+      "actividades acuáticas",
+      "kayaks",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-05-01T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-090",
+    "usuario_propietario_id": "USR-012",
+    "nombre": "Cocina modelo 090",
+    "descripcion": "Producto de camping preparado para alquiler temporal.",
+    "categoria": "Camping",
+    "subcategoria": "Cocina",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 17500,
+    "estado": "pausado",
+    "especificaciones": {
+      "cantidad_personas": 4,
+      "incluye_anafe": false,
+      "peso_kg": 2.0
+    },
+    "etiquetas": [
+      "camping",
+      "cocina",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-05-02T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-091",
+    "usuario_propietario_id": "USR-023",
+    "nombre": "Camperas modelo 091",
+    "descripcion": "Producto de indumentaria preparado para alquiler temporal.",
+    "categoria": "Indumentaria",
+    "subcategoria": "Camperas",
+    "ubicacion": {
+      "ciudad": "Mar del Plata",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 18750,
+    "estado": "disponible",
+    "especificaciones": {
+      "talle": "XL",
+      "nivel_abrigo": "alto",
+      "impermeable": true
+    },
+    "etiquetas": [
+      "indumentaria",
+      "camperas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-05-03T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-092",
+    "usuario_propietario_id": "USR-034",
+    "nombre": "Monopatines modelo 092",
+    "descripcion": "Producto de movilidad preparado para alquiler temporal.",
+    "categoria": "Movilidad",
+    "subcategoria": "Monopatines",
+    "ubicacion": {
+      "ciudad": "Salta",
+      "provincia": "Salta",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 20000,
+    "estado": "disponible",
+    "especificaciones": {
+      "autonomia_km": 22,
+      "velocidad_max_kmh": 25,
+      "electrico": true
+    },
+    "etiquetas": [
+      "movilidad",
+      "monopatines",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-05-04T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-093",
+    "usuario_propietario_id": "USR-045",
+    "nombre": "Sombrillas modelo 093",
+    "descripcion": "Producto de playa preparado para alquiler temporal.",
+    "categoria": "Playa",
+    "subcategoria": "Sombrillas",
+    "ubicacion": {
+      "ciudad": "Ushuaia",
+      "provincia": "Tierra del Fuego",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 21250,
+    "estado": "disponible",
+    "especificaciones": {
+      "diametro_m": 1.8,
+      "proteccion_uv": true
+    },
+    "etiquetas": [
+      "playa",
+      "sombrillas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-05-05T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-094",
+    "usuario_propietario_id": "USR-007",
+    "nombre": "Bolsos modelo 094",
+    "descripcion": "Producto de equipaje preparado para alquiler temporal.",
+    "categoria": "Equipaje",
+    "subcategoria": "Bolsos",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 22500,
+    "estado": "disponible",
+    "especificaciones": {
+      "capacidad_litros": 44,
+      "impermeable": false
+    },
+    "etiquetas": [
+      "equipaje",
+      "bolsos",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-05-06T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-095",
+    "usuario_propietario_id": "USR-018",
+    "nombre": "Bastones modelo 095",
+    "descripcion": "Producto de montaña preparado para alquiler temporal.",
+    "categoria": "Montaña",
+    "subcategoria": "Bastones",
+    "ubicacion": {
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 23750,
+    "estado": "disponible",
+    "especificaciones": {
+      "material": "aluminio",
+      "regulables": true,
+      "largo_max_cm": 130
+    },
+    "etiquetas": [
+      "montaña",
+      "bastones",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-05-07T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-096",
+    "usuario_propietario_id": "USR-029",
+    "nombre": "Tablas SUP modelo 096",
+    "descripcion": "Producto de actividades acuáticas preparado para alquiler temporal.",
+    "categoria": "Actividades acuáticas",
+    "subcategoria": "Tablas SUP",
+    "ubicacion": {
+      "ciudad": "Bariloche",
+      "provincia": "Río Negro",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 25000,
+    "estado": "disponible",
+    "especificaciones": {
+      "largo_pies": 10,
+      "inflable": true,
+      "incluye_remo": true
+    },
+    "etiquetas": [
+      "actividades acuáticas",
+      "tablas sup",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-05-08T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-097",
+    "usuario_propietario_id": "USR-040",
+    "nombre": "Bolsas de dormir modelo 097",
+    "descripcion": "Producto de camping preparado para alquiler temporal.",
+    "categoria": "Camping",
+    "subcategoria": "Bolsas de dormir",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 26250,
+    "estado": "disponible",
+    "especificaciones": {
+      "temperatura_minima_c": -12,
+      "material": "Sintético",
+      "peso_kg": 1.4
+    },
+    "etiquetas": [
+      "camping",
+      "bolsas de dormir",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-05-09T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-098",
+    "usuario_propietario_id": "USR-002",
+    "nombre": "Botas modelo 098",
+    "descripcion": "Producto de indumentaria preparado para alquiler temporal.",
+    "categoria": "Indumentaria",
+    "subcategoria": "Botas",
+    "ubicacion": {
+      "ciudad": "Mendoza",
+      "provincia": "Mendoza",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 27500,
+    "estado": "disponible",
+    "especificaciones": {
+      "talle": 44,
+      "impermeable": true,
+      "tipo_suela": "trekking"
+    },
+    "etiquetas": [
+      "indumentaria",
+      "botas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-05-10T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-099",
+    "usuario_propietario_id": "USR-013",
+    "nombre": "Bicicletas modelo 099",
+    "descripcion": "Producto de movilidad preparado para alquiler temporal.",
+    "categoria": "Movilidad",
+    "subcategoria": "Bicicletas",
+    "ubicacion": {
+      "ciudad": "Mar del Plata",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 28750,
+    "estado": "disponible",
+    "especificaciones": {
+      "rodado": 26,
+      "tipo_freno": "v-brake",
+      "cambios": 27
+    },
+    "etiquetas": [
+      "movilidad",
+      "bicicletas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-05-11T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-100",
+    "usuario_propietario_id": "USR-024",
+    "nombre": "Reposeras modelo 100",
+    "descripcion": "Producto de playa preparado para alquiler temporal.",
+    "categoria": "Playa",
+    "subcategoria": "Reposeras",
+    "ubicacion": {
+      "ciudad": "Salta",
+      "provincia": "Salta",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 5000,
+    "estado": "pausado",
+    "especificaciones": {
+      "posiciones": 4,
+      "material": "aluminio"
+    },
+    "etiquetas": [
+      "playa",
+      "reposeras",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-05-12T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-101",
+    "usuario_propietario_id": "USR-035",
+    "nombre": "Valijas modelo 101",
+    "descripcion": "Producto de equipaje preparado para alquiler temporal.",
+    "categoria": "Equipaje",
+    "subcategoria": "Valijas",
+    "ubicacion": {
+      "ciudad": "Ushuaia",
+      "provincia": "Tierra del Fuego",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 6250,
+    "estado": "disponible",
+    "especificaciones": {
+      "capacidad_litros": 41,
+      "tipo": "rígida",
+      "ruedas": 4
+    },
+    "etiquetas": [
+      "equipaje",
+      "valijas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-05-13T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-102",
+    "usuario_propietario_id": "USR-046",
+    "nombre": "Crampones modelo 102",
+    "descripcion": "Producto de montaña preparado para alquiler temporal.",
+    "categoria": "Montaña",
+    "subcategoria": "Crampones",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 7500,
+    "estado": "disponible",
+    "especificaciones": {
+      "puntas": 10,
+      "material": "acero",
+      "talle_ajustable": true
+    },
+    "etiquetas": [
+      "montaña",
+      "crampones",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-05-14T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-103",
+    "usuario_propietario_id": "USR-008",
+    "nombre": "Kayaks modelo 103",
+    "descripcion": "Producto de actividades acuáticas preparado para alquiler temporal.",
+    "categoria": "Actividades acuáticas",
+    "subcategoria": "Kayaks",
+    "ubicacion": {
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 8750,
+    "estado": "disponible",
+    "especificaciones": {
+      "capacidad_personas": 2,
+      "incluye_chaleco": true,
+      "largo_m": 3.3
+    },
+    "etiquetas": [
+      "actividades acuáticas",
+      "kayaks",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-05-15T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-104",
+    "usuario_propietario_id": "USR-019",
+    "nombre": "Mochilas modelo 104",
+    "descripcion": "Producto de camping preparado para alquiler temporal.",
+    "categoria": "Camping",
+    "subcategoria": "Mochilas",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 10000,
+    "estado": "disponible",
+    "especificaciones": {
+      "capacidad_litros": 54,
+      "impermeable": false,
+      "peso_kg": 1.2
+    },
+    "etiquetas": [
+      "camping",
+      "mochilas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-05-16T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-105",
+    "usuario_propietario_id": "USR-030",
+    "nombre": "Pantalones modelo 105",
+    "descripcion": "Producto de indumentaria preparado para alquiler temporal.",
+    "categoria": "Indumentaria",
+    "subcategoria": "Pantalones",
+    "ubicacion": {
+      "ciudad": "Córdoba",
+      "provincia": "Córdoba",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 11250,
+    "estado": "disponible",
+    "especificaciones": {
+      "talle": "M",
+      "material": "ripstop",
+      "impermeable": true
+    },
+    "etiquetas": [
+      "indumentaria",
+      "pantalones",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-05-17T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-106",
+    "usuario_propietario_id": "USR-041",
+    "nombre": "Monopatines modelo 106",
+    "descripcion": "Producto de movilidad preparado para alquiler temporal.",
+    "categoria": "Movilidad",
+    "subcategoria": "Monopatines",
+    "ubicacion": {
+      "ciudad": "Mendoza",
+      "provincia": "Mendoza",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 12500,
+    "estado": "disponible",
+    "especificaciones": {
+      "autonomia_km": 21,
+      "velocidad_max_kmh": 25,
+      "electrico": true
+    },
+    "etiquetas": [
+      "movilidad",
+      "monopatines",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-05-18T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-107",
+    "usuario_propietario_id": "USR-003",
+    "nombre": "Sombrillas modelo 107",
+    "descripcion": "Producto de playa preparado para alquiler temporal.",
+    "categoria": "Playa",
+    "subcategoria": "Sombrillas",
+    "ubicacion": {
+      "ciudad": "Mar del Plata",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 13750,
+    "estado": "disponible",
+    "especificaciones": {
+      "diametro_m": 2.2,
+      "proteccion_uv": true
+    },
+    "etiquetas": [
+      "playa",
+      "sombrillas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-05-19T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-108",
+    "usuario_propietario_id": "USR-014",
+    "nombre": "Bolsos modelo 108",
+    "descripcion": "Producto de equipaje preparado para alquiler temporal.",
+    "categoria": "Equipaje",
+    "subcategoria": "Bolsos",
+    "ubicacion": {
+      "ciudad": "Salta",
+      "provincia": "Salta",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 15000,
+    "estado": "disponible",
+    "especificaciones": {
+      "capacidad_litros": 58,
+      "impermeable": false
+    },
+    "etiquetas": [
+      "equipaje",
+      "bolsos",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-05-20T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-109",
+    "usuario_propietario_id": "USR-025",
+    "nombre": "Bastones modelo 109",
+    "descripcion": "Producto de montaña preparado para alquiler temporal.",
+    "categoria": "Montaña",
+    "subcategoria": "Bastones",
+    "ubicacion": {
+      "ciudad": "Ushuaia",
+      "provincia": "Tierra del Fuego",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 16250,
+    "estado": "disponible",
+    "especificaciones": {
+      "material": "aluminio",
+      "regulables": true,
+      "largo_max_cm": 130
+    },
+    "etiquetas": [
+      "montaña",
+      "bastones",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-05-21T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-110",
+    "usuario_propietario_id": "USR-036",
+    "nombre": "Tablas SUP modelo 110",
+    "descripcion": "Producto de actividades acuáticas preparado para alquiler temporal.",
+    "categoria": "Actividades acuáticas",
+    "subcategoria": "Tablas SUP",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 17500,
+    "estado": "pausado",
+    "especificaciones": {
+      "largo_pies": 12,
+      "inflable": true,
+      "incluye_remo": true
+    },
+    "etiquetas": [
+      "actividades acuáticas",
+      "tablas sup",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-05-22T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-111",
+    "usuario_propietario_id": "USR-047",
+    "nombre": "Carpas modelo 111",
+    "descripcion": "Producto de camping preparado para alquiler temporal.",
+    "categoria": "Camping",
+    "subcategoria": "Carpas",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 18750,
+    "estado": "disponible",
+    "especificaciones": {
+      "capacidad": 3,
+      "impermeabilidad_mm": 1800,
+      "cantidad_estaciones": 3
+    },
+    "etiquetas": [
+      "camping",
+      "carpas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-05-23T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-112",
+    "usuario_propietario_id": "USR-009",
+    "nombre": "Camperas modelo 112",
+    "descripcion": "Producto de indumentaria preparado para alquiler temporal.",
+    "categoria": "Indumentaria",
+    "subcategoria": "Camperas",
+    "ubicacion": {
+      "ciudad": "Bariloche",
+      "provincia": "Río Negro",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 20000,
+    "estado": "disponible",
+    "especificaciones": {
+      "talle": "S",
+      "nivel_abrigo": "medio",
+      "impermeable": false
+    },
+    "etiquetas": [
+      "indumentaria",
+      "camperas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-05-24T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-113",
+    "usuario_propietario_id": "USR-020",
+    "nombre": "Bicicletas modelo 113",
+    "descripcion": "Producto de movilidad preparado para alquiler temporal.",
+    "categoria": "Movilidad",
+    "subcategoria": "Bicicletas",
+    "ubicacion": {
+      "ciudad": "Córdoba",
+      "provincia": "Córdoba",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 21250,
+    "estado": "disponible",
+    "especificaciones": {
+      "rodado": 29,
+      "tipo_freno": "v-brake",
+      "cambios": 21
+    },
+    "etiquetas": [
+      "movilidad",
+      "bicicletas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-05-25T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-114",
+    "usuario_propietario_id": "USR-031",
+    "nombre": "Reposeras modelo 114",
+    "descripcion": "Producto de playa preparado para alquiler temporal.",
+    "categoria": "Playa",
+    "subcategoria": "Reposeras",
+    "ubicacion": {
+      "ciudad": "Mendoza",
+      "provincia": "Mendoza",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 22500,
+    "estado": "disponible",
+    "especificaciones": {
+      "posiciones": 3,
+      "material": "aluminio"
+    },
+    "etiquetas": [
+      "playa",
+      "reposeras",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-05-26T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-115",
+    "usuario_propietario_id": "USR-042",
+    "nombre": "Valijas modelo 115",
+    "descripcion": "Producto de equipaje preparado para alquiler temporal.",
+    "categoria": "Equipaje",
+    "subcategoria": "Valijas",
+    "ubicacion": {
+      "ciudad": "Mar del Plata",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 23750,
+    "estado": "disponible",
+    "especificaciones": {
+      "capacidad_litros": 55,
+      "tipo": "rígida",
+      "ruedas": 4
+    },
+    "etiquetas": [
+      "equipaje",
+      "valijas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-05-27T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-116",
+    "usuario_propietario_id": "USR-004",
+    "nombre": "Crampones modelo 116",
+    "descripcion": "Producto de montaña preparado para alquiler temporal.",
+    "categoria": "Montaña",
+    "subcategoria": "Crampones",
+    "ubicacion": {
+      "ciudad": "Salta",
+      "provincia": "Salta",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 25000,
+    "estado": "disponible",
+    "especificaciones": {
+      "puntas": 12,
+      "material": "acero",
+      "talle_ajustable": true
+    },
+    "etiquetas": [
+      "montaña",
+      "crampones",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-05-28T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-117",
+    "usuario_propietario_id": "USR-015",
+    "nombre": "Kayaks modelo 117",
+    "descripcion": "Producto de actividades acuáticas preparado para alquiler temporal.",
+    "categoria": "Actividades acuáticas",
+    "subcategoria": "Kayaks",
+    "ubicacion": {
+      "ciudad": "Ushuaia",
+      "provincia": "Tierra del Fuego",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 26250,
+    "estado": "disponible",
+    "especificaciones": {
+      "capacidad_personas": 2,
+      "incluye_chaleco": true,
+      "largo_m": 3.2
+    },
+    "etiquetas": [
+      "actividades acuáticas",
+      "kayaks",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-05-29T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-118",
+    "usuario_propietario_id": "USR-026",
+    "nombre": "Cocina modelo 118",
+    "descripcion": "Producto de camping preparado para alquiler temporal.",
+    "categoria": "Camping",
+    "subcategoria": "Cocina",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 27500,
+    "estado": "disponible",
+    "especificaciones": {
+      "cantidad_personas": 4,
+      "incluye_anafe": false,
+      "peso_kg": 2.0
+    },
+    "etiquetas": [
+      "camping",
+      "cocina",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-05-30T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-119",
+    "usuario_propietario_id": "USR-037",
+    "nombre": "Botas modelo 119",
+    "descripcion": "Producto de indumentaria preparado para alquiler temporal.",
+    "categoria": "Indumentaria",
+    "subcategoria": "Botas",
+    "ubicacion": {
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 28750,
+    "estado": "disponible",
+    "especificaciones": {
+      "talle": 45,
+      "impermeable": true,
+      "tipo_suela": "trekking"
+    },
+    "etiquetas": [
+      "indumentaria",
+      "botas",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-05-31T00:00:00Z"
+  },
+  {
+    "producto_id": "PROD-120",
+    "usuario_propietario_id": "USR-048",
+    "nombre": "Monopatines modelo 120",
+    "descripcion": "Producto de movilidad preparado para alquiler temporal.",
+    "categoria": "Movilidad",
+    "subcategoria": "Monopatines",
+    "ubicacion": {
+      "ciudad": "Bariloche",
+      "provincia": "Río Negro",
+      "pais": "Argentina"
+    },
+    "precio_por_dia": 5000,
+    "estado": "pausado",
+    "especificaciones": {
+      "autonomia_km": 20,
+      "velocidad_max_kmh": 25,
+      "electrico": true
+    },
+    "etiquetas": [
+      "movilidad",
+      "monopatines",
+      "viaje"
+    ],
+    "fecha_publicacion": "2026-06-01T00:00:00Z"
+  }
+]

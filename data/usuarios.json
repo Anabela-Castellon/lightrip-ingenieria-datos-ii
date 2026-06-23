@@ -1,0 +1,602 @@
+[
+  {
+    "usuario_id": "USR-001",
+    "nombre": "Martina López",
+    "email": "martina.lopez.1@email.com",
+    "ubicacion": {
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-01-01T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-002",
+    "nombre": "Lucas García",
+    "email": "lucas.garcia.2@email.com",
+    "ubicacion": {
+      "ciudad": "Bariloche",
+      "provincia": "Río Negro",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-01-04T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-003",
+    "nombre": "Sofía Rodríguez",
+    "email": "sofia.rodriguez.3@email.com",
+    "ubicacion": {
+      "ciudad": "Córdoba",
+      "provincia": "Córdoba",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-01-07T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-004",
+    "nombre": "Mateo Fernández",
+    "email": "mateo.fernandez.4@email.com",
+    "ubicacion": {
+      "ciudad": "Mendoza",
+      "provincia": "Mendoza",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-01-10T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-005",
+    "nombre": "Valentina Gómez",
+    "email": "valentina.gomez.5@email.com",
+    "ubicacion": {
+      "ciudad": "Mar del Plata",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-01-13T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-006",
+    "nombre": "Tomás Martínez",
+    "email": "tomas.martinez.6@email.com",
+    "ubicacion": {
+      "ciudad": "Salta",
+      "provincia": "Salta",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-01-16T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-007",
+    "nombre": "Camila Pérez",
+    "email": "camila.perez.7@email.com",
+    "ubicacion": {
+      "ciudad": "Ushuaia",
+      "provincia": "Tierra del Fuego",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-01-19T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-008",
+    "nombre": "Nicolás Sánchez",
+    "email": "nicolas.sanchez.8@email.com",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-01-22T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-009",
+    "nombre": "Julieta Romero",
+    "email": "julieta.romero.9@email.com",
+    "ubicacion": {
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-01-25T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-010",
+    "nombre": "Agustín Díaz",
+    "email": "agustin.diaz.10@email.com",
+    "ubicacion": {
+      "ciudad": "Bariloche",
+      "provincia": "Río Negro",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-01-28T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-011",
+    "nombre": "Micaela Álvarez",
+    "email": "micaela.alvarez.11@email.com",
+    "ubicacion": {
+      "ciudad": "Córdoba",
+      "provincia": "Córdoba",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-01-31T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-012",
+    "nombre": "Franco Torres",
+    "email": "franco.torres.12@email.com",
+    "ubicacion": {
+      "ciudad": "Mendoza",
+      "provincia": "Mendoza",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-02-03T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-013",
+    "nombre": "Carolina Ruiz",
+    "email": "carolina.ruiz.13@email.com",
+    "ubicacion": {
+      "ciudad": "Mar del Plata",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-02-06T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-014",
+    "nombre": "Joaquín Ramírez",
+    "email": "joaquin.ramirez.14@email.com",
+    "ubicacion": {
+      "ciudad": "Salta",
+      "provincia": "Salta",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-02-09T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-015",
+    "nombre": "Lucía Flores",
+    "email": "lucia.flores.15@email.com",
+    "ubicacion": {
+      "ciudad": "Ushuaia",
+      "provincia": "Tierra del Fuego",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-02-12T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-016",
+    "nombre": "Federico Acosta",
+    "email": "federico.acosta.16@email.com",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-02-15T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-017",
+    "nombre": "Paula Benítez",
+    "email": "paula.benitez.17@email.com",
+    "ubicacion": {
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-02-18T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-018",
+    "nombre": "Santiago Medina",
+    "email": "santiago.medina.18@email.com",
+    "ubicacion": {
+      "ciudad": "Bariloche",
+      "provincia": "Río Negro",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-02-21T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-019",
+    "nombre": "Florencia Herrera",
+    "email": "florencia.herrera.19@email.com",
+    "ubicacion": {
+      "ciudad": "Córdoba",
+      "provincia": "Córdoba",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-02-24T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-020",
+    "nombre": "Bruno Suárez",
+    "email": "bruno.suarez.20@email.com",
+    "ubicacion": {
+      "ciudad": "Mendoza",
+      "provincia": "Mendoza",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-02-27T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-021",
+    "nombre": "Ana Molina",
+    "email": "ana.molina.21@email.com",
+    "ubicacion": {
+      "ciudad": "Mar del Plata",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-03-02T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-022",
+    "nombre": "Mariano Castro",
+    "email": "mariano.castro.22@email.com",
+    "ubicacion": {
+      "ciudad": "Salta",
+      "provincia": "Salta",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-03-05T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-023",
+    "nombre": "Victoria Ortiz",
+    "email": "victoria.ortiz.23@email.com",
+    "ubicacion": {
+      "ciudad": "Ushuaia",
+      "provincia": "Tierra del Fuego",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-03-08T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-024",
+    "nombre": "Gonzalo Silva",
+    "email": "gonzalo.silva.24@email.com",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-03-11T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-025",
+    "nombre": "Rocío Rojas",
+    "email": "rocio.rojas.25@email.com",
+    "ubicacion": {
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-03-14T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-026",
+    "nombre": "Facundo Vega",
+    "email": "facundo.vega.26@email.com",
+    "ubicacion": {
+      "ciudad": "Bariloche",
+      "provincia": "Río Negro",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-03-17T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-027",
+    "nombre": "Milagros Navarro",
+    "email": "milagros.navarro.27@email.com",
+    "ubicacion": {
+      "ciudad": "Córdoba",
+      "provincia": "Córdoba",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-03-20T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-028",
+    "nombre": "Leandro Cabrera",
+    "email": "leandro.cabrera.28@email.com",
+    "ubicacion": {
+      "ciudad": "Mendoza",
+      "provincia": "Mendoza",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-03-23T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-029",
+    "nombre": "Candela Morales",
+    "email": "candela.morales.29@email.com",
+    "ubicacion": {
+      "ciudad": "Mar del Plata",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-03-26T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-030",
+    "nombre": "Ignacio Arias",
+    "email": "ignacio.arias.30@email.com",
+    "ubicacion": {
+      "ciudad": "Salta",
+      "provincia": "Salta",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-03-29T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-031",
+    "nombre": "Belén Méndez",
+    "email": "belen.mendez.31@email.com",
+    "ubicacion": {
+      "ciudad": "Ushuaia",
+      "provincia": "Tierra del Fuego",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-04-01T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-032",
+    "nombre": "Ramiro Ibarra",
+    "email": "ramiro.ibarra.32@email.com",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-04-04T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-033",
+    "nombre": "Malena Ponce",
+    "email": "malena.ponce.33@email.com",
+    "ubicacion": {
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-04-07T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-034",
+    "nombre": "Ezequiel Sosa",
+    "email": "ezequiel.sosa.34@email.com",
+    "ubicacion": {
+      "ciudad": "Bariloche",
+      "provincia": "Río Negro",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-04-10T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-035",
+    "nombre": "Delfina Paz",
+    "email": "delfina.paz.35@email.com",
+    "ubicacion": {
+      "ciudad": "Córdoba",
+      "provincia": "Córdoba",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-04-13T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-036",
+    "nombre": "Juan Vargas",
+    "email": "juan.vargas.36@email.com",
+    "ubicacion": {
+      "ciudad": "Mendoza",
+      "provincia": "Mendoza",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-04-16T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-037",
+    "nombre": "Josefina Correa",
+    "email": "josefina.correa.37@email.com",
+    "ubicacion": {
+      "ciudad": "Mar del Plata",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-04-19T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-038",
+    "nombre": "Emiliano Ramos",
+    "email": "emiliano.ramos.38@email.com",
+    "ubicacion": {
+      "ciudad": "Salta",
+      "provincia": "Salta",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-04-22T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-039",
+    "nombre": "Lara Ferreyra",
+    "email": "lara.ferreyra.39@email.com",
+    "ubicacion": {
+      "ciudad": "Ushuaia",
+      "provincia": "Tierra del Fuego",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-04-25T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-040",
+    "nombre": "Sebastián Luna",
+    "email": "sebastian.luna.40@email.com",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-04-28T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-041",
+    "nombre": "Pilar Figueroa",
+    "email": "pilar.figueroa.41@email.com",
+    "ubicacion": {
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-05-01T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-042",
+    "nombre": "Lautaro Mansilla",
+    "email": "lautaro.mansilla.42@email.com",
+    "ubicacion": {
+      "ciudad": "Bariloche",
+      "provincia": "Río Negro",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-05-04T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-043",
+    "nombre": "Catalina Aguirre",
+    "email": "catalina.aguirre.43@email.com",
+    "ubicacion": {
+      "ciudad": "Córdoba",
+      "provincia": "Córdoba",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-05-07T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-044",
+    "nombre": "Benjamín Peralta",
+    "email": "benjamin.peralta.44@email.com",
+    "ubicacion": {
+      "ciudad": "Mendoza",
+      "provincia": "Mendoza",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-05-10T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-045",
+    "nombre": "Aldana Campos",
+    "email": "aldana.campos.45@email.com",
+    "ubicacion": {
+      "ciudad": "Mar del Plata",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-05-13T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-046",
+    "nombre": "Matías Godoy",
+    "email": "matias.godoy.46@email.com",
+    "ubicacion": {
+      "ciudad": "Salta",
+      "provincia": "Salta",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-05-16T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-047",
+    "nombre": "Renata Quiroga",
+    "email": "renata.quiroga.47@email.com",
+    "ubicacion": {
+      "ciudad": "Ushuaia",
+      "provincia": "Tierra del Fuego",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-05-19T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-048",
+    "nombre": "Thiago Roldán",
+    "email": "thiago.roldan.48@email.com",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-05-22T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-049",
+    "nombre": "Abril Villalba",
+    "email": "abril.villalba.49@email.com",
+    "ubicacion": {
+      "ciudad": "Buenos Aires",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-05-25T00:00:00Z",
+    "estado": "activo"
+  },
+  {
+    "usuario_id": "USR-050",
+    "nombre": "Alan Bravo",
+    "email": "alan.bravo.50@email.com",
+    "ubicacion": {
+      "ciudad": "Bariloche",
+      "provincia": "Río Negro",
+      "pais": "Argentina"
+    },
+    "fecha_registro": "2026-05-28T00:00:00Z",
+    "estado": "activo"
+  }
+]
