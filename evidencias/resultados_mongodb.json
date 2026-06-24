@@ -1,0 +1,320 @@
+{
+  "Q1": [
+    {
+      "producto_id": "PROD-001",
+      "nombre": "Carpa térmica de montaña",
+      "categoria": "Camping",
+      "ubicacion": {
+        "ciudad": "Bariloche",
+        "provincia": "Río Negro",
+        "pais": "Argentina"
+      },
+      "precio_por_dia": 18000
+    },
+    {
+      "producto_id": "PROD-002",
+      "nombre": "Carpa familiar reforzada",
+      "categoria": "Camping",
+      "ubicacion": {
+        "ciudad": "Bariloche",
+        "provincia": "Río Negro",
+        "pais": "Argentina"
+      },
+      "precio_por_dia": 22000
+    },
+    {
+      "producto_id": "PROD-003",
+      "nombre": "Carpa compacta para dos",
+      "categoria": "Camping",
+      "ubicacion": {
+        "ciudad": "Bariloche",
+        "provincia": "Río Negro",
+        "pais": "Argentina"
+      },
+      "precio_por_dia": 12500
+    },
+    {
+      "producto_id": "PROD-004",
+      "nombre": "Mochila de trekking 60 litros",
+      "categoria": "Camping",
+      "ubicacion": {
+        "ciudad": "Bariloche",
+        "provincia": "Río Negro",
+        "pais": "Argentina"
+      },
+      "precio_por_dia": 9500
+    },
+    {
+      "producto_id": "PROD-005",
+      "nombre": "Bolsa de dormir -10 °C",
+      "categoria": "Camping",
+      "ubicacion": {
+        "ciudad": "Bariloche",
+        "provincia": "Río Negro",
+        "pais": "Argentina"
+      },
+      "precio_por_dia": 8000
+    },
+    {
+      "producto_id": "PROD-006",
+      "nombre": "Kit de cocina de camping",
+      "categoria": "Camping",
+      "ubicacion": {
+        "ciudad": "Bariloche",
+        "provincia": "Río Negro",
+        "pais": "Argentina"
+      },
+      "precio_por_dia": 7000
+    }
+  ],
+  "Q2": [
+    {
+      "producto_id": "PROD-001",
+      "nombre": "Carpa térmica de montaña",
+      "precio_por_dia": 18000,
+      "especificaciones": {
+        "capacidad": 4,
+        "impermeabilidad_mm": 3000,
+        "cantidad_estaciones": 4
+      }
+    },
+    {
+      "producto_id": "PROD-002",
+      "nombre": "Carpa familiar reforzada",
+      "precio_por_dia": 22000,
+      "especificaciones": {
+        "capacidad": 6,
+        "impermeabilidad_mm": 5000,
+        "cantidad_estaciones": 4
+      }
+    }
+  ],
+  "Q3_disponibles": [
+    {
+      "producto_id": "PROD-001",
+      "nombre": "Carpa térmica de montaña",
+      "categoria": "Camping",
+      "ubicacion": {
+        "ciudad": "Bariloche",
+        "provincia": "Río Negro",
+        "pais": "Argentina"
+      },
+      "precio_por_dia": 18000
+    },
+    {
+      "producto_id": "PROD-003",
+      "nombre": "Carpa compacta para dos",
+      "categoria": "Camping",
+      "ubicacion": {
+        "ciudad": "Bariloche",
+        "provincia": "Río Negro",
+        "pais": "Argentina"
+      },
+      "precio_por_dia": 12500
+    },
+    {
+      "producto_id": "PROD-004",
+      "nombre": "Mochila de trekking 60 litros",
+      "categoria": "Camping",
+      "ubicacion": {
+        "ciudad": "Bariloche",
+        "provincia": "Río Negro",
+        "pais": "Argentina"
+      },
+      "precio_por_dia": 9500
+    },
+    {
+      "producto_id": "PROD-005",
+      "nombre": "Bolsa de dormir -10 °C",
+      "categoria": "Camping",
+      "ubicacion": {
+        "ciudad": "Bariloche",
+        "provincia": "Río Negro",
+        "pais": "Argentina"
+      },
+      "precio_por_dia": 8000
+    },
+    {
+      "producto_id": "PROD-006",
+      "nombre": "Kit de cocina de camping",
+      "categoria": "Camping",
+      "ubicacion": {
+        "ciudad": "Bariloche",
+        "provincia": "Río Negro",
+        "pais": "Argentina"
+      },
+      "precio_por_dia": 7000
+    }
+  ],
+  "Q3_excluidos": [
+    {
+      "reserva_id": "RES-002",
+      "producto_id": "PROD-002",
+      "fecha_inicio": {
+        "$date": "2026-07-12T00:00:00Z"
+      },
+      "fecha_fin": {
+        "$date": "2026-07-14T00:00:00Z"
+      },
+      "estado": "confirmada"
+    }
+  ],
+  "Q4": [
+    {
+      "reserva_id": "RES-004",
+      "producto_id": "PROD-004",
+      "fecha_inicio": {
+        "$date": "2026-06-20T00:00:00Z"
+      },
+      "fecha_fin": {
+        "$date": "2026-06-25T00:00:00Z"
+      },
+      "precio_total": 47500,
+      "estado": "activa"
+    },
+    {
+      "reserva_id": "RES-002",
+      "producto_id": "PROD-002",
+      "fecha_inicio": {
+        "$date": "2026-07-12T00:00:00Z"
+      },
+      "fecha_fin": {
+        "$date": "2026-07-14T00:00:00Z"
+      },
+      "precio_total": 44000,
+      "estado": "confirmada"
+    },
+    {
+      "reserva_id": "RES-003",
+      "producto_id": "PROD-003",
+      "fecha_inicio": {
+        "$date": "2026-08-01T00:00:00Z"
+      },
+      "fecha_fin": {
+        "$date": "2026-08-05T00:00:00Z"
+      },
+      "precio_total": 50000,
+      "estado": "pendiente"
+    }
+  ],
+  "Q5": [
+    {
+      "reserva_id": "RES-001",
+      "fecha_inicio": {
+        "$date": "2026-05-10T00:00:00Z"
+      },
+      "fecha_fin": {
+        "$date": "2026-05-15T00:00:00Z"
+      },
+      "precio_total": 90000,
+      "producto_id": "PROD-001",
+      "producto": "Carpa térmica de montaña",
+      "categoria": "Camping"
+    },
+    {
+      "reserva_id": "RES-005",
+      "fecha_inicio": {
+        "$date": "2026-04-01T00:00:00Z"
+      },
+      "fecha_fin": {
+        "$date": "2026-04-04T00:00:00Z"
+      },
+      "precio_total": 24000,
+      "producto_id": "PROD-005",
+      "producto": "Bolsa de dormir -10 °C",
+      "categoria": "Camping"
+    },
+    {
+      "reserva_id": "RES-006",
+      "fecha_inicio": {
+        "$date": "2026-01-10T00:00:00Z"
+      },
+      "fecha_fin": {
+        "$date": "2026-01-13T00:00:00Z"
+      },
+      "precio_total": 54000,
+      "producto_id": "PROD-001",
+      "producto": "Carpa térmica de montaña",
+      "categoria": "Camping"
+    }
+  ],
+  "Q6": [
+    {
+      "cantidad_resenas": 5,
+      "usuario_id": "USR-002",
+      "reputacion_promedio": 4.6
+    }
+  ],
+  "Q7": [
+    {
+      "cantidad_alquileres": 10,
+      "ingresos_generados": 576000,
+      "producto_id": "PROD-001",
+      "nombre": "Carpa térmica de montaña",
+      "categoria": "Camping"
+    },
+    {
+      "cantidad_alquileres": 4,
+      "ingresos_generados": 80000,
+      "producto_id": "PROD-005",
+      "nombre": "Bolsa de dormir -10 °C",
+      "categoria": "Camping"
+    },
+    {
+      "cantidad_alquileres": 3,
+      "ingresos_generados": 345000,
+      "producto_id": "PROD-019",
+      "nombre": "Kayaks modelo 019",
+      "categoria": "Actividades acuáticas"
+    },
+    {
+      "cantidad_alquileres": 3,
+      "ingresos_generados": 345000,
+      "producto_id": "PROD-099",
+      "nombre": "Bicicletas modelo 099",
+      "categoria": "Movilidad"
+    },
+    {
+      "cantidad_alquileres": 3,
+      "ingresos_generados": 315000,
+      "producto_id": "PROD-037",
+      "nombre": "Sombrillas modelo 037",
+      "categoria": "Playa"
+    },
+    {
+      "cantidad_alquileres": 3,
+      "ingresos_generados": 315000,
+      "producto_id": "PROD-117",
+      "nombre": "Kayaks modelo 117",
+      "categoria": "Actividades acuáticas"
+    },
+    {
+      "cantidad_alquileres": 3,
+      "ingresos_generados": 300000,
+      "producto_id": "PROD-076",
+      "nombre": "Mochilas modelo 076",
+      "categoria": "Camping"
+    },
+    {
+      "cantidad_alquileres": 3,
+      "ingresos_generados": 285000,
+      "producto_id": "PROD-015",
+      "nombre": "Bicicletas modelo 015",
+      "categoria": "Movilidad"
+    },
+    {
+      "cantidad_alquileres": 3,
+      "ingresos_generados": 285000,
+      "producto_id": "PROD-055",
+      "nombre": "Carpas modelo 055",
+      "categoria": "Camping"
+    },
+    {
+      "cantidad_alquileres": 3,
+      "ingresos_generados": 240000,
+      "producto_id": "PROD-072",
+      "nombre": "Reposeras modelo 072",
+      "categoria": "Playa"
+    }
+  ]
+}
