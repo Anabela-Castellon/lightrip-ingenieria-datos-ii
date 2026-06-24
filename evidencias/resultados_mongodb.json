@@ -263,16 +263,16 @@
     {
       "cantidad_alquileres": 3,
       "ingresos_generados": 345000,
-      "producto_id": "PROD-019",
-      "nombre": "Kayaks modelo 019",
-      "categoria": "Actividades acuáticas"
+      "producto_id": "PROD-099",
+      "nombre": "Bicicletas modelo 099",
+      "categoria": "Movilidad"
     },
     {
       "cantidad_alquileres": 3,
       "ingresos_generados": 345000,
-      "producto_id": "PROD-099",
-      "nombre": "Bicicletas modelo 099",
-      "categoria": "Movilidad"
+      "producto_id": "PROD-019",
+      "nombre": "Kayaks modelo 019",
+      "categoria": "Actividades acuáticas"
     },
     {
       "cantidad_alquileres": 3,
@@ -298,23 +298,23 @@
     {
       "cantidad_alquileres": 3,
       "ingresos_generados": 285000,
-      "producto_id": "PROD-015",
-      "nombre": "Bicicletas modelo 015",
-      "categoria": "Movilidad"
-    },
-    {
-      "cantidad_alquileres": 3,
-      "ingresos_generados": 285000,
       "producto_id": "PROD-055",
       "nombre": "Carpas modelo 055",
       "categoria": "Camping"
     },
     {
       "cantidad_alquileres": 3,
+      "ingresos_generados": 285000,
+      "producto_id": "PROD-015",
+      "nombre": "Bicicletas modelo 015",
+      "categoria": "Movilidad"
+    },
+    {
+      "cantidad_alquileres": 3,
       "ingresos_generados": 240000,
-      "producto_id": "PROD-072",
-      "nombre": "Reposeras modelo 072",
-      "categoria": "Playa"
+      "producto_id": "PROD-032",
+      "nombre": "Crampones modelo 032",
+      "categoria": "Montaña"
     }
   ]
 }
