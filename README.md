@@ -2,13 +2,15 @@
 
 Repositorio del Trabajo Práctico Integrador de Ingeniería de Datos II.
 
-La solución implementa la capa de datos de LighTrip mediante:
+LighTrip es una propuesta de plataforma de alquiler temporal de objetos de viaje entre usuarios. El trabajo se concentra en la implementación y validación de la capa de datos mediante una arquitectura NoSQL con persistencia políglota.
 
-- MongoDB como base operativa principal.
-- Python para generación, validación, carga y consultas.
-- Neo4j como motor complementario para relaciones sociales e integración.
+## Tecnologías utilizadas
 
-Este repositorio permite generar el dataset, cargar MongoDB y obtener las evidencias directamente desde la terminal. MongoDB Compass no es necesario.
+- **MongoDB:** almacenamiento operativo de usuarios, productos, reservas y reseñas.
+- **Neo4j:** representación y análisis de relaciones entre clientes y propietarios.
+- **Python:** generación, validación, carga, consultas y sincronización entre motores.
+
+MongoDB funciona como fuente principal de los datos. Neo4j mantiene una representación derivada de los alquileres finalizados mediante relaciones `ALQUILO_A`.
 
 ## Estructura del proyecto
 
@@ -24,36 +26,34 @@ lightrip-ingenieria-datos-ii/
 │   ├── reservas.json
 │   └── resenas.json
 │
+├── evidencias/
+│
 ├── scripts/
 │   ├── generar_dataset.py
 │   ├── validar_dataset.py
 │   ├── cargar_mongodb.py
 │   ├── mostrar_documentos.py
-│   └── verificar_resultados.py
+│   ├── verificar_resultados.py
+│   └── sincronizar_mongodb_neo4j.py
 │
-├── evidencias/
 ├── .gitignore
 ├── GUIA_CAPTURAS.md
 ├── README.md
 └── requirements.txt
 ```
 
-## Resultado esperado
+## Dataset utilizado
 
-La generación produce:
+El dataset es sintético y reproducible. La generación produce:
 
-- 50 usuarios.
-- 120 productos.
-- 180 reservas.
-- 80 reseñas.
+| Entidad | Cantidad |
+|---|---:|
+| Usuarios | 50 |
+| Productos | 120 |
+| Reservas | 180 |
+| Reseñas | 80 |
 
-La base creada se llama:
-
-```text
-lightrip
-```
-
-Sus colecciones son:
+La base de MongoDB se llama `lightrip` y contiene las colecciones:
 
 ```text
 usuarios
@@ -62,27 +62,32 @@ reservas
 resenas
 ```
 
-## 1. Requisitos
+## Requisitos
 
 - Python 3.10 o superior.
-- MongoDB Community Server instalado.
-- Servicio de MongoDB en ejecución.
-- Terminal de Visual Studio Code, PowerShell o CMD.
+- MongoDB Community Server.
+- Neo4j Desktop.
+- PowerShell, CMD o terminal de Visual Studio Code.
 
-MongoDB Compass es opcional y no se utiliza en esta guía.
+Conexiones locales utilizadas:
 
-## 2. Clonar el repositorio
+```text
+MongoDB: mongodb://localhost:27017
+Neo4j:   neo4j://127.0.0.1:7687
+```
 
-```bash
+## Instalación
+
+### 1. Clonar el repositorio
+
+```powershell
 git clone https://github.com/Anabela-Castellon/lightrip-ingenieria-datos-ii.git
 cd lightrip-ingenieria-datos-ii
 ```
 
-También se puede clonar mediante GitHub Desktop.
+### 2. Crear y activar el entorno virtual
 
-## 3. Crear el entorno virtual
-
-### PowerShell
+#### PowerShell
 
 ```powershell
 py -m venv .venv
@@ -90,60 +95,22 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 .\.venv\Scripts\Activate.ps1
 ```
 
-### CMD
+#### CMD
 
 ```cmd
 py -m venv .venv
 .venv\Scripts\activate.bat
 ```
 
-Cuando el entorno se encuentre activo, la terminal mostrará:
-
-```text
-(.venv)
-```
-
-## 4. Instalar dependencias
+### 3. Instalar dependencias
 
 ```powershell
 pip install -r requirements.txt
 ```
 
-## 5. Verificar el servidor de MongoDB
+## Ejecución de MongoDB
 
-### Desde PowerShell
-
-```powershell
-Get-Service MongoDB
-```
-
-El estado esperado es:
-
-```text
-Running
-```
-
-Si aparece detenido, abrir PowerShell como administrador y ejecutar:
-
-```powershell
-Start-Service MongoDB
-```
-
-### Desde Servicios de Windows
-
-1. Presionar `Windows + R`.
-2. Escribir `services.msc`.
-3. Buscar `MongoDB Server`.
-4. Seleccionar `Iniciar`.
-5. Verificar que el estado sea `En ejecución`.
-
-La conexión local utilizada por el proyecto es:
-
-```text
-mongodb://localhost:27017
-```
-
-## 6. Generar el dataset
+### 1. Generar el dataset
 
 ```powershell
 py scripts\generar_dataset.py
@@ -158,9 +125,7 @@ Reservas generadas: 180
 Reseñas generadas: 80
 ```
 
-Los archivos se guardan dentro de `data/`.
-
-## 7. Validar el dataset
+### 2. Validar el dataset
 
 ```powershell
 py scripts\validar_dataset.py
@@ -173,7 +138,7 @@ Errores encontrados: 0
 Dataset válido y listo para cargar.
 ```
 
-## 8. Cargar MongoDB
+### 3. Cargar MongoDB
 
 ```powershell
 py scripts\cargar_mongodb.py
@@ -190,48 +155,176 @@ Reseñas cargadas: 80
 Índices creados correctamente.
 ```
 
-El script elimina una base `lightrip` previa y la vuelve a crear. Esto permite repetir la ejecución sin duplicar documentos.
+El script elimina una base `lightrip` previa y vuelve a crearla. Esto permite repetir la carga sin duplicar documentos.
 
-## 9. Mostrar documentos desde la terminal
+### 4. Mostrar documentos almacenados
 
 ```powershell
 py scripts\mostrar_documentos.py
 ```
 
-El script muestra ejemplos de:
+La salida muestra ejemplos de usuario, producto, reserva y reseña.
 
-- Usuario.
-- Producto.
-- Reserva.
-- Reseña.
-
-La salida incluye documentos embebidos, arreglos, fechas, identificadores y valores numéricos.
-
-## 10. Ejecutar las consultas Q1 a Q7
+### 5. Ejecutar las consultas Q1 a Q7
 
 ```powershell
 py scripts\verificar_resultados.py
 ```
 
-El script ejecuta todas las consultas operativas de MongoDB y muestra:
+Resultados obtenidos:
 
-```text
-Q1: 6 productos.
-Q2: 2 carpas.
-Q3: 5 disponibles y 1 excluido: PROD-002.
-Q4: 3 reservas vigentes.
-Q5: 3 alquileres finalizados.
-Q6: promedio 4.6 sobre 5 reseñas.
-Q7: PROD-001 con 10 alquileres.
-```
+| Consulta | Resultado |
+|---|---|
+| Q1 | 6 productos de Camping disponibles en Bariloche |
+| Q2 | 2 carpas con los atributos solicitados |
+| Q3 | 5 productos disponibles y 1 excluido por superposición |
+| Q4 | 3 reservas vigentes de `USR-001` |
+| Q5 | 3 alquileres finalizados de `USR-001` |
+| Q6 | Reputación 4.6 sobre 5 reseñas para `USR-002` |
+| Q7 | `PROD-001` con 10 alquileres finalizados |
 
-También genera:
+El script también genera:
 
 ```text
 evidencias/resultados_mongodb.json
 ```
 
-## 11. Flujo completo de ejecución
+## Ejecución de Neo4j
+
+1. Abrir Neo4j Desktop.
+2. Iniciar la base local utilizada por el proyecto.
+3. Verificar que el puerto Bolt sea `7687`.
+4. Ejecutar las consultas Q8, Q9 y Q10 desde Neo4j Browser.
+
+Resultados obtenidos:
+
+| Consulta | Resultado |
+|---|---|
+| Q8 | 2 propietarios relacionados con `USR-001` |
+| Q9 | 9 usuarios con propietarios en común |
+| Q10 | 10 propietarios recomendados |
+
+La segunda etapa de Q10 se ejecuta en MongoDB y recupera 24 productos disponibles pertenecientes a los propietarios recomendados.
+
+## Flujo integrado entre MongoDB y Neo4j
+
+El flujo implementado es:
+
+```text
+Reserva finalizada en MongoDB
+        ↓
+Procesamiento mediante Python
+        ↓
+Relación ALQUILO_A en Neo4j
+        ↓
+Consulta analítica sobre el grafo
+```
+
+### Configurar la contraseña de Neo4j
+
+#### PowerShell
+
+```powershell
+$env:NEO4J_PASSWORD="TU_CONTRASEÑA"
+```
+
+#### CMD
+
+```cmd
+set NEO4J_PASSWORD=TU_CONTRASEÑA
+```
+
+La contraseña no debe incorporarse al código ni subirse al repositorio.
+
+### Ejecutar la sincronización
+
+```powershell
+py scripts\sincronizar_mongodb_neo4j.py
+```
+
+Resultado de la primera ejecución:
+
+```text
+Reservas finalizadas pendientes: 90
+Reservas nuevas aplicadas: 90
+Reservas ya presentes: 0
+Errores: 0
+Nodos Usuario: 33
+Relaciones ALQUILO_A: 88
+Sincronización finalizada.
+```
+
+La cantidad de relaciones es menor que la cantidad de reservas porque varias operaciones entre el mismo cliente y propietario se consolidan en una sola relación.
+
+### Verificación del caso `RES-001`
+
+En Neo4j:
+
+```cypher
+MATCH
+  (cliente:Usuario)-[r:ALQUILO_A]->(propietario:Usuario)
+WHERE
+  "RES-001" IN r.reservas_procesadas
+RETURN
+  cliente.usuario_id AS cliente,
+  propietario.usuario_id AS propietario,
+  r.cantidad_operaciones AS operaciones,
+  r.ultima_fecha AS ultima_fecha,
+  r.categorias AS categorias,
+  r.reservas_procesadas AS reservas_procesadas;
+```
+
+Resultado validado:
+
+```text
+USR-001 → USR-002
+cantidad_operaciones: 2
+categorias: ["Camping"]
+reservas_procesadas: ["RES-001", "RES-006"]
+```
+
+En MongoDB:
+
+```javascript
+use lightrip
+
+db.reservas.findOne(
+  { reserva_id: "RES-001" },
+  {
+    _id: 0,
+    reserva_id: 1,
+    estado: 1,
+    sincronizada_neo4j: 1,
+    fecha_sincronizacion: 1
+  }
+);
+```
+
+La reserva debe presentar:
+
+```text
+estado: finalizada
+sincronizada_neo4j: true
+```
+
+### Verificación de idempotencia
+
+Después de volver a cargar MongoDB sin eliminar el grafo, se ejecutó nuevamente la sincronización.
+
+Resultado obtenido:
+
+```text
+Reservas finalizadas pendientes: 90
+Reservas nuevas aplicadas: 0
+Reservas ya presentes: 90
+Errores: 0
+Nodos Usuario: 33
+Relaciones ALQUILO_A: 88
+```
+
+Esto comprueba que las reservas ya procesadas no vuelven a incrementar los contadores ni generan relaciones duplicadas.
+
+## Flujo completo de ejecución
 
 ```powershell
 py scripts\generar_dataset.py
@@ -239,42 +332,31 @@ py scripts\validar_dataset.py
 py scripts\cargar_mongodb.py
 py scripts\mostrar_documentos.py
 py scripts\verificar_resultados.py
+
+$env:NEO4J_PASSWORD="12082013"
+py scripts\sincronizar_mongodb_neo4j.py
 ```
 
-## 12. Evidencias
+Las consultas Q8 a Q10 se ejecutan desde Neo4j Browser.
 
-Las capturas se toman directamente desde la terminal y se guardan en:
+## Evidencias
+
+Las capturas deben guardarse dentro de:
 
 ```text
 evidencias/
 ```
 
-Nombres sugeridos:
+La guía detallada se encuentra en [GUIA_CAPTURAS.md](GUIA_CAPTURAS.md).
 
-```text
-figura-02-generacion-validacion.png
-figura-03-carga-mongodb.png
-figura-04-documentos.png
-figura-05-q1.png
-figura-06-q2.png
-figura-07-q3-disponibles.png
-figura-08-q3-excluido.png
-figura-09-q4.png
-figura-10-q5.png
-figura-11-q6.png
-figura-12-q7.png
-```
-
-La guía detallada se encuentra en `GUIA_CAPTURAS.md`.
-
-## 13. Seguridad y archivos ignorados
+## Seguridad
 
 No deben subirse al repositorio:
 
 - `.venv/`
 - `.env`
-- contraseñas
-- archivos temporales
-- caché de Python
+- Contraseñas.
+- Caché de Python.
+- Archivos temporales.
 
-Estos elementos se excluyen mediante `.gitignore`.
+Estos elementos deben permanecer excluidos mediante `.gitignore`.

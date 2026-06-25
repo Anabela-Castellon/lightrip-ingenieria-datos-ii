@@ -1,10 +1,10 @@
-# Guía de capturas — MongoDB desde terminal
+# Guía de capturas — LighTrip
 
-Esta guía permite obtener las Figuras 2 a 12 del informe sin utilizar MongoDB Compass.
+Esta guía permite obtener las evidencias de MongoDB, Neo4j y del flujo integrado entre ambos motores.
 
-Las evidencias se generan desde la terminal de Visual Studio Code, PowerShell o CMD.
+Las capturas pueden realizarse desde la terminal de Visual Studio Code, PowerShell, CMD, `mongosh` y Neo4j Browser.
 
-## Preparación previa
+## 1. Preparación previa
 
 Abrir una terminal en la raíz del repositorio.
 
@@ -21,13 +21,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 .venv\Scripts\activate.bat
 ```
 
-Verificar que aparezca:
-
-```text
-(.venv)
-```
-
-También se debe comprobar que MongoDB se encuentre en ejecución:
+Verificar que MongoDB se encuentre iniciado:
 
 ```powershell
 Get-Service MongoDB
@@ -39,9 +33,17 @@ El estado esperado es:
 Running
 ```
 
+También se debe iniciar la base local desde Neo4j Desktop.
+
+Configurar la contraseña de Neo4j:
+
+```powershell
+$env:NEO4J_PASSWORD="TU_CONTRASEÑA"
+```
+
 ---
 
-## Figura 2 — Generación y validación del dataset sintético
+## 2. Generación y validación del dataset
 
 Ejecutar:
 
@@ -53,28 +55,23 @@ py scripts\validar_dataset.py
 
 La captura debe mostrar:
 
-- Usuarios generados: 50.
-- Productos generados: 120.
-- Reservas generadas: 180.
-- Reseñas generadas: 80.
-- Todas las validaciones en `APROBADA`.
-- Errores encontrados: 0.
-
-Texto para el informe:
-
 ```text
-El proceso generó 50 usuarios, 120 productos, 180 reservas y 80 reseñas. Las validaciones finalizaron con 0 errores.
+Usuarios generados: 50
+Productos generados: 120
+Reservas generadas: 180
+Reseñas generadas: 80
+Errores encontrados: 0
 ```
 
 Nombre sugerido:
 
 ```text
-evidencias/figura-02-generacion-validacion.png
+evidencias/generacion-validacion.png
 ```
 
 ---
 
-## Figura 3 — Cantidad de documentos cargados en MongoDB
+## 3. Carga inicial de MongoDB
 
 Ejecutar:
 
@@ -85,37 +82,24 @@ py scripts\cargar_mongodb.py
 
 La captura debe mostrar:
 
-- Base de datos: `lightrip`.
-- Usuarios cargados: 50.
-- Productos cargados: 120.
-- Reservas cargadas: 180.
-- Reseñas cargadas: 80.
-- Índices creados correctamente.
-
-Tabla para el informe:
-
-| Colección | Generados | Cargados |
-|---|---:|---:|
-| usuarios | 50 | 50 |
-| productos | 120 | 120 |
-| reservas | 180 | 180 |
-| resenas | 80 | 80 |
-
-Texto para el informe:
-
 ```text
-Las cantidades generadas y cargadas coinciden.
+Base de datos: lightrip
+Usuarios cargados: 50
+Productos cargados: 120
+Reservas cargadas: 180
+Reseñas cargadas: 80
+Índices creados correctamente.
 ```
 
 Nombre sugerido:
 
 ```text
-evidencias/figura-03-carga-mongodb.png
+evidencias/carga-mongodb.png
 ```
 
 ---
 
-## Figura 4 — Ejemplos de documentos almacenados en MongoDB
+## 4. Documentos almacenados
 
 Ejecutar:
 
@@ -123,18 +107,6 @@ Ejecutar:
 cls
 py scripts\mostrar_documentos.py
 ```
-
-El script muestra:
-
-- Un usuario.
-- Un producto.
-- Una reserva.
-- Una reseña.
-
-Como la salida puede ser extensa, se pueden tomar dos capturas:
-
-1. Usuario y producto.
-2. Reserva y reseña.
 
 La evidencia debe permitir observar:
 
@@ -145,22 +117,16 @@ La evidencia debe permitir observar:
 - Valores numéricos.
 - Referencias entre colecciones.
 
-Texto para el informe:
-
-```text
-La evidencia permite comprobar el almacenamiento de identificadores, fechas, documentos embebidos, arreglos y valores numéricos. En el producto se observan la ubicación y las especificaciones como documentos embebidos, mientras que las etiquetas se almacenan como un arreglo. En la reserva y la reseña se visualizan las referencias entre las entidades.
-```
-
 Nombres sugeridos:
 
 ```text
-evidencias/figura-04-documentos-1.png
-evidencias/figura-04-documentos-2.png
+evidencias/documentos-1.png
+evidencias/documentos-2.png
 ```
 
 ---
 
-## Figuras 5 a 12 — Consultas Q1 a Q7
+## 5. Consultas Q1 a Q7 — MongoDB
 
 Ejecutar:
 
@@ -169,19 +135,7 @@ cls
 py scripts\verificar_resultados.py
 ```
 
-El script imprime todas las consultas en orden.
-
-Para obtener capturas más legibles, se recomienda agrandar la terminal y tomar una captura por bloque.
-
----
-
-## Figura 5 — Q1. Productos de Camping en Bariloche
-
-Buscar en la salida:
-
-```text
-=== Q1 - Camping disponible en Bariloche ===
-```
+### Q1. Búsqueda por categoría y ubicación
 
 Resultado esperado:
 
@@ -189,27 +143,13 @@ Resultado esperado:
 Cantidad: 6
 ```
 
-Texto para el informe:
-
-```text
-La consulta devolvió 6 productos que cumplen la categoría, ciudad y estado solicitados.
-```
-
 Nombre sugerido:
 
 ```text
-evidencias/figura-05-q1.png
+evidencias/q1-camping-bariloche.png
 ```
 
----
-
-## Figura 6 — Q2. Carpas filtradas por atributos específicos
-
-Buscar:
-
-```text
-=== Q2 - Carpas por atributos específicos ===
-```
+### Q2. Filtro por atributos específicos
 
 Resultado esperado:
 
@@ -217,85 +157,31 @@ Resultado esperado:
 Cantidad: 2
 ```
 
-Texto para el informe:
-
-```text
-Se recuperaron 2 carpas con capacidad mínima de cuatro personas e impermeabilidad igual o superior a 3000 mm.
-```
-
 Nombre sugerido:
 
 ```text
-evidencias/figura-06-q2.png
+evidencias/q2-atributos.png
 ```
 
----
+### Q3. Disponibilidad por fechas
 
-## Figura 7 — Q3. Productos disponibles entre fechas
-
-Buscar:
+Resultados esperados:
 
 ```text
-=== Q3 - Disponibilidad del 10 al 15 de julio de 2026 ===
+Productos disponibles: 5
+Producto excluido: PROD-002
+Reserva bloqueante: RES-002
+Estado: confirmada
 ```
 
-Resultado esperado:
+Nombres sugeridos:
 
 ```text
-Cantidad: 5
+evidencias/q3-disponibles.png
+evidencias/q3-superposicion.png
 ```
 
-Texto para el informe:
-
-```text
-La consulta devolvió 5 productos sin reservas bloqueantes superpuestas.
-```
-
-Nombre sugerido:
-
-```text
-evidencias/figura-07-q3-disponibles.png
-```
-
----
-
-## Figura 8 — Q3. Producto excluido por superposición
-
-Buscar:
-
-```text
-=== Q3 - Producto excluido por superposición ===
-```
-
-Resultado esperado:
-
-```text
-producto_id: PROD-002
-reserva_id: RES-002
-estado: confirmada
-```
-
-Texto para el informe:
-
-```text
-El producto PROD-002 fue excluido porque posee una reserva con estado confirmada que se superpone con el período solicitado.
-```
-
-Nombre sugerido:
-
-```text
-evidencias/figura-08-q3-excluido.png
-```
-
----
-
-## Figura 9 — Q4. Reservas vigentes de USR-001
-
-Buscar:
-
-```text
-=== Q4 - Reservas activas de USR-001 ===
-```
+### Q4. Reservas vigentes
 
 Resultado esperado:
 
@@ -303,27 +189,13 @@ Resultado esperado:
 Cantidad: 3
 ```
 
-Texto para el informe:
-
-```text
-El usuario posee 3 reservas pendientes, confirmadas o activas.
-```
-
 Nombre sugerido:
 
 ```text
-evidencias/figura-09-q4.png
+evidencias/q4-reservas-vigentes.png
 ```
 
----
-
-## Figura 10 — Q5. Historial de alquileres de USR-001
-
-Buscar:
-
-```text
-=== Q5 - Historial de alquileres de USR-001 ===
-```
+### Q5. Historial de alquileres
 
 Resultado esperado:
 
@@ -331,27 +203,13 @@ Resultado esperado:
 Cantidad: 3
 ```
 
-Texto para el informe:
-
-```text
-Se recuperaron 3 reservas finalizadas junto con la información principal de los productos alquilados.
-```
-
 Nombre sugerido:
 
 ```text
-evidencias/figura-10-q5.png
+evidencias/q5-historial.png
 ```
 
----
-
-## Figura 11 — Q6. Reputación de USR-002
-
-Buscar:
-
-```text
-=== Q6 - Reputación de USR-002 ===
-```
+### Q6. Reputación
 
 Resultado esperado:
 
@@ -360,29 +218,15 @@ reputacion_promedio: 4.6
 cantidad_resenas: 5
 ```
 
-Texto para el informe:
-
-```text
-El usuario obtuvo una reputación promedio de 4,6, calculada a partir de 5 reseñas.
-```
-
 Nombre sugerido:
 
 ```text
-evidencias/figura-11-q6.png
+evidencias/q6-reputacion.png
 ```
 
----
+### Q7. Productos con mayor demanda
 
-## Figura 12 — Q7. Productos con mayor demanda
-
-Buscar:
-
-```text
-=== Q7 - Productos con mayor demanda ===
-```
-
-El primer resultado esperado es:
+Primer resultado esperado:
 
 ```text
 producto_id: PROD-001
@@ -390,29 +234,263 @@ nombre: Carpa térmica de montaña
 cantidad_alquileres: 10
 ```
 
-Texto para el informe:
+Nombre sugerido:
 
 ```text
-El producto con mayor actividad fue Carpa térmica de montaña, con 10 alquileres finalizados.
+evidencias/q7-demanda.png
+```
+
+---
+
+## 6. Consultas Q8 a Q10 — Neo4j
+
+Las consultas se ejecutan desde Neo4j Browser.
+
+### Q8. Propietarios con interacciones frecuentes
+
+Resultado esperado para `USR-001`:
+
+| Propietario | Operaciones |
+|---|---:|
+| `USR-002` | 2 |
+| `USR-006` | 1 |
+
+Nombre sugerido:
+
+```text
+evidencias/q8-propietarios-frecuentes.png
+```
+
+### Q9. Usuarios con propietarios en común
+
+Resultado esperado:
+
+- 9 usuarios similares.
+- `USR-009` comparte 2 propietarios con `USR-001`.
+- Propietarios compartidos: `USR-002` y `USR-006`.
+
+Nombre sugerido:
+
+```text
+evidencias/q9-usuarios-similares.png
+```
+
+### Q10. Recomendación social
+
+Neo4j debe devolver 10 propietarios recomendados:
+
+```text
+USR-025
+USR-005
+USR-011
+USR-020
+USR-027
+USR-012
+USR-014
+USR-013
+USR-007
+USR-015
 ```
 
 Nombre sugerido:
 
 ```text
-evidencias/figura-12-q7.png
+evidencias/q10-neo4j-recomendaciones.png
+```
+
+En MongoDB, la segunda etapa debe recuperar 24 productos disponibles.
+
+Nombre sugerido:
+
+```text
+evidencias/q10-mongodb-productos.png
 ```
 
 ---
 
-## Guardar las evidencias en GitHub
+## 7. Flujo integrado entre MongoDB y Neo4j
 
-Después de guardar las capturas dentro de `evidencias/`:
+El flujo que debe quedar demostrado es:
 
-```powershell
-git status
-git add evidencias scripts/mostrar_documentos.py README.md GUIA_CAPTURAS.md
-git commit -m "Actualizar guía y evidencias de MongoDB por terminal"
-git push
+```text
+Reserva finalizada en MongoDB
+        ↓
+Sincronización mediante Python
+        ↓
+Relación ALQUILO_A en Neo4j
+        ↓
+Consulta analítica sobre el grafo
 ```
 
-Las capturas quedarán asociadas con los mismos números utilizados en el informe.
+### 7.1 Primera sincronización
+
+Para realizar una ejecución limpia:
+
+1. Cargar nuevamente MongoDB.
+
+```powershell
+py scripts\cargar_mongodb.py
+```
+
+2. Limpiar el grafo únicamente en el entorno de prueba:
+
+```cypher
+MATCH (n)
+DETACH DELETE n;
+```
+
+3. Ejecutar:
+
+```powershell
+cls
+py scripts\sincronizar_mongodb_neo4j.py
+```
+
+La captura debe mostrar:
+
+```text
+Reservas finalizadas pendientes: 90
+Reservas nuevas aplicadas: 90
+Reservas ya presentes: 0
+Errores: 0
+Nodos Usuario: 33
+Relaciones ALQUILO_A: 88
+Sincronización finalizada.
+```
+
+Nombre sugerido:
+
+```text
+evidencias/integracion-primera-sincronizacion.png
+```
+
+### 7.2 Verificación de `RES-001` en Neo4j
+
+Ejecutar:
+
+```cypher
+MATCH
+  (cliente:Usuario)-[r:ALQUILO_A]->(propietario:Usuario)
+WHERE
+  "RES-001" IN r.reservas_procesadas
+RETURN
+  cliente.usuario_id AS cliente,
+  propietario.usuario_id AS propietario,
+  r.cantidad_operaciones AS operaciones,
+  r.ultima_fecha AS ultima_fecha,
+  r.categorias AS categorias,
+  r.reservas_procesadas AS reservas_procesadas;
+```
+
+Resultado esperado:
+
+```text
+cliente: USR-001
+propietario: USR-002
+operaciones: 2
+ultima_fecha: 2026-05-15
+categorias: ["Camping"]
+reservas_procesadas: ["RES-001", "RES-006"]
+```
+
+Nombre sugerido:
+
+```text
+evidencias/integracion-reserva-neo4j.png
+```
+
+### 7.3 Verificación de `RES-001` en MongoDB
+
+Abrir `mongosh` y ejecutar:
+
+```javascript
+use lightrip
+
+db.reservas.findOne(
+  { reserva_id: "RES-001" },
+  {
+    _id: 0,
+    reserva_id: 1,
+    estado: 1,
+    sincronizada_neo4j: 1,
+    fecha_sincronizacion: 1
+  }
+);
+```
+
+El documento debe mostrar:
+
+```text
+reserva_id: RES-001
+estado: finalizada
+sincronizada_neo4j: true
+```
+
+Nombre sugerido:
+
+```text
+evidencias/integracion-reserva-mongodb.png
+```
+
+### 7.4 Consulta analítica posterior
+
+En Neo4j Browser ejecutar:
+
+```cypher
+MATCH
+  (:Usuario {usuario_id: "USR-001"})
+  -[r:ALQUILO_A]->
+  (propietario:Usuario)
+RETURN
+  propietario.usuario_id AS propietario_id,
+  r.cantidad_operaciones AS operaciones,
+  r.ultima_fecha AS ultima_fecha
+ORDER BY operaciones DESC;
+```
+
+Resultado esperado:
+
+| Propietario | Operaciones |
+|---|---:|
+| `USR-002` | 2 |
+| `USR-006` | 1 |
+
+Nombre sugerido:
+
+```text
+evidencias/integracion-consulta-analitica.png
+```
+
+### 7.5 Control de duplicados
+
+Sin eliminar el grafo, volver a cargar MongoDB:
+
+```powershell
+py scripts\cargar_mongodb.py
+```
+
+Después ejecutar:
+
+```powershell
+cls
+py scripts\sincronizar_mongodb_neo4j.py
+```
+
+La captura debe mostrar:
+
+```text
+Reservas finalizadas pendientes: 90
+Reservas nuevas aplicadas: 0
+Reservas ya presentes: 90
+Errores: 0
+Nodos Usuario: 33
+Relaciones ALQUILO_A: 88
+```
+
+Esto demuestra que las reservas ya procesadas no generan relaciones duplicadas ni aumentan nuevamente los contadores.
+
+Nombre sugerido:
+
+```text
+evidencias/integracion-control-duplicados.png
+```
